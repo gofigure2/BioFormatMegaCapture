@@ -57,7 +57,7 @@ then
 
 	sed -e '/DimensionXT/d' -e '/DimensionYT/d' MegaCaptureFormat.meg > Meg.meg
 	sed -e 's/\tSizeT =/SizeT:/g' -e 's/\tSizeZ =/SizeZ:/g' -e 's/\tSizeC =/SizeC:/g' -e 's/\tValid bits per pixel =/Valid bits per pixel:/g' $INPUTFILE > input.tmp
-
+	
 
 	cp Meg.meg MegaCaptureFormat.meg
 		
@@ -84,12 +84,13 @@ then
 		echo $j
 	done
 
-	cp MegaCaptureFormat.meg $2.meg
+	#cp MegaCaptureFormat.meg $2.meg
 
 
-	stat -c "%y" log.txt | sed 
+	stat -c "%y" log.txt | cut -c 1-19 > DATETIME.txt
+	echo "s/^DateTime.*$/DateTime $(cat DATETIME.txt)/g"
+	sed "s/^DateTime.*$/DateTime $(cat DATETIME.txt)/g" MegaCaptureFormat.meg > $2.meg
+
+   
 
 fi
-
-
-stat -c "%y" log.txt 

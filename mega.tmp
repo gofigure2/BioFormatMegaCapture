@@ -1,0 +1,39 @@
+MegaCapture
+<ImageSessionData>
+Version 3.0
+ExperimentTitle
+ExperimentDescription 
+TimeInterval 0.0
+Objective
+VoxelSizeX 0.19768233907137978
+VoxelSizeY 0.19768233907137978
+VoxelSizeZ 1.0E-13
+DimensionX 1024
+DimensionY 1024
+DimensionPL 1
+DimensionCO 1
+DimensionRO 1
+DimensionTM 6
+DimensionZS 5
+DimensionCH 7
+ChannelColor00 65280
+ChannelColor01 255
+ChannelColor02 16711680
+ChannelDepth 8
+FileType PNG
+</ImageSessionData>
+<Image>
+Filename image-PL00-CO00-RO00-ZT00-YT00-XT00-TM0000-ch00-zs0000.png
+DateTime 2009-11-05 09:44:11
+StageX 1000
+StageY -1000
+Pinhole 44.216
+</Image>
+<Image>
+Filename image-PL00-CO00-RO00-ZT00-YT00-XT00-TM0000-ch00-zs0001.png
+DateTime 2009-11-05 09:44:11
+StageX 1000
+StageY -1000
+Pinhole 44.216
+</Image>
+
