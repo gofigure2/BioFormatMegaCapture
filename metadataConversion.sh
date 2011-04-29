@@ -86,6 +86,31 @@ then
 
 	#cp MegaCaptureFormat.meg $2.meg
 
+	for k in {7..9}
+	do
+		DIM[${k}]=$(grep "${MEG[${k}]}" MegaCaptureFormat.meg  | cut -c 13-) 
+        	echo ${DIM[${k}]}
+	done
+
+
+	NUMIMAGES=$((${DIM[7]}+${DIM[8]}+${DIM[9]}))
+	echo $NUMIMAGES
+	for k in {1..$NUMIMAGES}
+	do
+		# 7 is TM, 8 is ZS, 9 is CH
+		#Need to duplicate
+#<Image>
+#Filename image-PL00-CO00-RO00-ZT00-YT00-XT00-TM0000-ch00-zs0000.png
+#DateTime 2009-11-05 09:44:11
+#StageX 1000
+#StageY -1000
+#Pinhole 44.216
+#</Image>
+
+#with different TM0000-ch00-zs0000 looped
+		sed 's/
+		
+	done
 
 	stat -c "%y" log.txt | cut -c 1-19 > DATETIME.txt
 	echo "s/^DateTime.*$/DateTime $(cat DATETIME.txt)/g"
