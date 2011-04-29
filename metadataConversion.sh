@@ -86,7 +86,10 @@ then
 
 	cp MegaCaptureFormat.meg $2.meg
 
+
+	stat -c "%y" log.txt | sed 
+
 fi
 
 
- 
+stat -c "%y" log.txt 
