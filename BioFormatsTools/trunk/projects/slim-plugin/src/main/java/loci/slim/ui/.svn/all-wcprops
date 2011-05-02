@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/software/!svn/ver/7654/trunk/projects/slim-plugin/src/main/java/loci/slim/ui
+END
+UserInterfacePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/software/!svn/ver/7654/trunk/projects/slim-plugin/src/main/java/loci/slim/ui/UserInterfacePanel.java
+END
+IStartStopListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/software/!svn/ver/7587/trunk/projects/slim-plugin/src/main/java/loci/slim/ui/IStartStopListener.java
+END
+ExcitationPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/software/!svn/ver/7647/trunk/projects/slim-plugin/src/main/java/loci/slim/ui/ExcitationPanel.java
+END
+IUserInterfacePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/software/!svn/ver/7653/trunk/projects/slim-plugin/src/main/java/loci/slim/ui/IUserInterfacePanel.java
+END
+ExcitationGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/software/!svn/ver/7646/trunk/projects/slim-plugin/src/main/java/loci/slim/ui/ExcitationGraph.java
+END
+IStartStopBaseListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/software/!svn/ver/7648/trunk/projects/slim-plugin/src/main/java/loci/slim/ui/IStartStopBaseListener.java
+END
+IUserInterfacePanelListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/software/!svn/ver/7587/trunk/projects/slim-plugin/src/main/java/loci/slim/ui/IUserInterfacePanelListener.java
+END
+SpringUtilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/software/!svn/ver/7587/trunk/projects/slim-plugin/src/main/java/loci/slim/ui/SpringUtilities.java
+END

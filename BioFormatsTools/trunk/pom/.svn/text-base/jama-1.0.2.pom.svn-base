@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0     http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>jama</groupId>
+  <artifactId>jama</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0.2</version>
+  <name>JAMA</name>
+  <description>JAMA is a basic linear algebra package for Java. It provides user-level classes for constructing and manipulating real, dense matrices.</description>
+  <url>http://math.nist.gov/javanumerics/jama/</url>
+
+  <licenses>
+    <license>
+      <name>Public domain</name>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Joe Hicklin</name>
+      <url>http://users.utu.fi/jaolho/</url>
+      <organization>MathWorks</organization>
+      <organizationUrl>http://www.mathworks.com/</organizationUrl>
+    </developer>
+    <developer>
+      <name>Cleve Moler</name>
+      <url>http://www.mathworks.com/company/aboutus/founders/clevemoler.html</url>
+      <organization>MathWorks</organization>
+      <organizationUrl>http://www.mathworks.com/</organizationUrl>
+    </developer>
+    <developer>
+      <name>Peter Webb</name>
+      <organization>MathWorks</organization>
+      <organizationUrl>http://www.mathworks.com/</organizationUrl>
+    </developer>
+    <developer>
+      <name>Ronald F. Boisvert</name>
+      <url>http://math.nist.gov/~RBoisvert/</url>
+      <organization>NIST</organization>
+      <organizationUrl>http://www.nist.gov/</organizationUrl>
+    </developer>
+    <developer>
+      <name>Bruce Miller</name>
+      <url>http://math.nist.gov/~BMiller/</url>
+      <organization>NIST</organization>
+      <organizationUrl>http://www.nist.gov/</organizationUrl>
+    </developer>
+    <developer>
+      <name>Roldan Pozo</name>
+      <url>http://math.nist.gov/~RPozo/</url>
+      <organization>NIST</organization>
+      <organizationUrl>http://www.nist.gov/</organizationUrl>
+    </developer>
+    <developer>
+      <name>Karin Remington</name>
+      <url>http://math.nist.gov/~KRemington/</url>
+      <organization>NIST</organization>
+      <organizationUrl>http://www.nist.gov/</organizationUrl>
+    </developer>
+  </developers>
+
+</project>

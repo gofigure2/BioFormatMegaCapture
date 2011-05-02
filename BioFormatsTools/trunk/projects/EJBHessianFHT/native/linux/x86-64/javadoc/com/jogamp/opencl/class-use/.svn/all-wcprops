@@ -1,0 +1,587 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use
+END
+CLException.CLInvalidGlobalWorkSizeException.html
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidGlobalWorkSizeException.html
+END
+CLException.CLInvalidDeviceException.html
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidDeviceException.html
+END
+CLException.CLInvalidArgIndexException.html
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidArgIndexException.html
+END
+CLImage2d.html
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLImage2d.html
+END
+CLException.CLMemObjectAllocationFailureException.html
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLMemObjectAllocationFailureException.html
+END
+CLException.CLInvalidMipLevelException.html
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidMipLevelException.html
+END
+CLException.CLMapFailureException.html
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLMapFailureException.html
+END
+CLImage.CLImageInfoAccessor.html
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLImage.CLImageInfoAccessor.html
+END
+CLException.CLMisalignedSubBufferOffsetException.html
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLMisalignedSubBufferOffsetException.html
+END
+CLException.CLOutOfResourcesException.html
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLOutOfResourcesException.html
+END
+CLException.CLInvalidKernelNameException.html
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidKernelNameException.html
+END
+CLMemory.Map.html
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLMemory.Map.html
+END
+CLPlatform.html
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLPlatform.html
+END
+CLException.CLInvalidContextException.html
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidContextException.html
+END
+CLException.CLInvalidWorkDimensionException.html
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidWorkDimensionException.html
+END
+CLException.CLBuildProgramFailureException.html
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLBuildProgramFailureException.html
+END
+CLException.CLInvalidKernelDefinitionException.html
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidKernelDefinitionException.html
+END
+CLException.CLInvalidGLObjectException.html
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidGLObjectException.html
+END
+CLException.CLMemCopyOverlapException.html
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLMemCopyOverlapException.html
+END
+CLException.CLInvalidWorkItemSizeException.html
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidWorkItemSizeException.html
+END
+CLImageFormat.ChannelOrder.html
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLImageFormat.ChannelOrder.html
+END
+CLEvent.CommandType.html
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLEvent.CommandType.html
+END
+CLException.CLExecStatusErrorForEventsInWaitListException.html
+K 25
+svn:wc:ra_dav:version-url
+V 175
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLExecStatusErrorForEventsInWaitListException.html
+END
+CLException.CLPlatformNotFoundKhrException.html
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLPlatformNotFoundKhrException.html
+END
+CLException.CLInvalidOperationException.html
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidOperationException.html
+END
+CLImageFormat.ChannelType.html
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLImageFormat.ChannelType.html
+END
+CLException.CLInvalidArgSizeException.html
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidArgSizeException.html
+END
+CLException.CLDeviceNotFoundException.html
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLDeviceNotFoundException.html
+END
+CLMemory.html
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLMemory.html
+END
+CLException.CLInvalidProgramExecutableException.html
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidProgramExecutableException.html
+END
+CLException.CLImageFormatMismatchException.html
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLImageFormatMismatchException.html
+END
+CLException.CLImageFormatNotSupportedException.html
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLImageFormatNotSupportedException.html
+END
+CLException.CLInvalidImageSizeException.html
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidImageSizeException.html
+END
+CLDevice.Type.html
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLDevice.Type.html
+END
+CLEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLEvent.html
+END
+CLException.CLInvalidKernelException.html
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidKernelException.html
+END
+CLDevice.GlobalMemCacheType.html
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLDevice.GlobalMemCacheType.html
+END
+CLCommandQueue.html
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLCommandQueue.html
+END
+CLSubBuffer.html
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLSubBuffer.html
+END
+CLException.CLInvalidCommandQueueException.html
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidCommandQueueException.html
+END
+CLMemory.Mem.html
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLMemory.Mem.html
+END
+CLException.CLInvalidPropertyException.html
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidPropertyException.html
+END
+CLException.CLInvalidPlatformException.html
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidPlatformException.html
+END
+CLEvent.ExecutionStatus.html
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLEvent.ExecutionStatus.html
+END
+CLErrorHandler.html
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLErrorHandler.html
+END
+CLResource.html
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLResource.html
+END
+CLException.CLInvalidGLSharegroupReferenceKhrException.html
+K 25
+svn:wc:ra_dav:version-url
+V 172
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidGLSharegroupReferenceKhrException.html
+END
+CLProgram.Status.html
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLProgram.Status.html
+END
+CLSampler.FilteringMode.html
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLSampler.FilteringMode.html
+END
+CLProgram.CompilerOptions.html
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLProgram.CompilerOptions.html
+END
+CLException.html
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.html
+END
+CLException.CLInvalidKernelArgsException.html
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidKernelArgsException.html
+END
+CLDevice.html
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLDevice.html
+END
+CLMemory.GLObjectType.html
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLMemory.GLObjectType.html
+END
+AutoCloseable.html
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/AutoCloseable.html
+END
+CLSampler.html
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLSampler.html
+END
+CLException.CLInvalidHostPtrException.html
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidHostPtrException.html
+END
+CLCommandQueue.Mode.html
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLCommandQueue.Mode.html
+END
+CLException.CLInvalidBufferSizeException.html
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidBufferSizeException.html
+END
+CLProgram.html
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLProgram.html
+END
+CLEvent.ProfilingCommand.html
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLEvent.ProfilingCommand.html
+END
+CLBuffer.html
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLBuffer.html
+END
+CLImage3d.html
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLImage3d.html
+END
+CLException.CLDeviceNotAvailableException.html
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLDeviceNotAvailableException.html
+END
+CLException.CLInvalidValueException.html
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidValueException.html
+END
+CLProgramBuilder.html
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLProgramBuilder.html
+END
+CL.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CL.html
+END
+CLKernel.html
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLKernel.html
+END
+CLUserEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLUserEvent.html
+END
+CLException.CLProfilingInfoNotAvailableException.html
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLProfilingInfoNotAvailableException.html
+END
+CLException.CLInvalidEventException.html
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidEventException.html
+END
+CLContext.ErrorDispatcher.html
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLContext.ErrorDispatcher.html
+END
+CLContext.html
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLContext.html
+END
+CLDevice.Capabilities.html
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLDevice.Capabilities.html
+END
+CLEventListener.html
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLEventListener.html
+END
+CLException.CLCompilerNotAvailableException.html
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLCompilerNotAvailableException.html
+END
+CLImageFormat.html
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLImageFormat.html
+END
+CLException.CLInvalidWorkGroupSizeException.html
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidWorkGroupSizeException.html
+END
+CLException.CLInvalidImageFormatDescriptorException.html
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidImageFormatDescriptorException.html
+END
+CLException.CLInvalidQueuePropertiesException.html
+K 25
+svn:wc:ra_dav:version-url
+V 163
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidQueuePropertiesException.html
+END
+CLException.CLInvalidDeviceTypeException.html
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidDeviceTypeException.html
+END
+CLException.CLInvalidEventWaitListException.html
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidEventWaitListException.html
+END
+CLException.CLInvalidSamplerException.html
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidSamplerException.html
+END
+CLException.CLInvalidMemObjectException.html
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidMemObjectException.html
+END
+CLException.CLInvalidArgValueException.html
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidArgValueException.html
+END
+CLException.CLInvalidProgramException.html
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidProgramException.html
+END
+CLException.CLInvalidGlobalOffsetException.html
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidGlobalOffsetException.html
+END
+CLMemObjectListener.html
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLMemObjectListener.html
+END
+CLException.CLInvalidBuildOptionsException.html
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidBuildOptionsException.html
+END
+CLEventList.html
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLEventList.html
+END
+CLException.CLOutOfHostMemoryException.html
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLOutOfHostMemoryException.html
+END
+CLImage.html
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLImage.html
+END
+CLVersion.html
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLVersion.html
+END
+CLException.CLInvalidBinaryException.html
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLException.CLInvalidBinaryException.html
+END
+CLDevice.LocalMemType.html
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLDevice.LocalMemType.html
+END
+CLDevice.FPConfig.html
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLDevice.FPConfig.html
+END
+CLSampler.AddressingMode.html
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/class-use/CLSampler.AddressingMode.html
+END

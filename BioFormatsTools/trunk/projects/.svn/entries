@@ -1,0 +1,107 @@
+10
+
+dir
+7657
+http://dev.loci.wisc.edu/svn/software/trunk/projects
+http://dev.loci.wisc.edu/svn/software
+
+
+
+2011-03-17T17:25:34.836483Z
+7657
+curtis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3781de31-7b18-0410-9ac2-f97db2664b80
+
+curve-fitter
+dir
+
+loci-checks
+dir
+
+jar2lib
+dir
+
+slim-curve
+dir
+
+wiscscan-java
+dir
+
+visbio
+dir
+
+slim-plotter
+dir
+
+deep-zoom-plugin
+dir
+
+utils
+dir
+
+slim-plugin
+dir
+
+flow-cytometry
+dir
+
+opencl-decon
+dir
+
+misc-plugins
+dir
+
+readme.txt
+file
+
+
+
+
+2011-03-17T21:51:19.394871Z
+116a1e229440266154a88bf5fbbf4013
+2010-08-06T21:56:23.417041Z
+6776
+curtis
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+45
+
+cppwrap-maven-plugin
+dir
+
+EJBHessianFHT
+dir
+

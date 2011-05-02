@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/util/class-use
+END
+CLUtil.html
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/util/class-use/CLUtil.html
+END
+CLProgramConfiguration.html
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/util/class-use/CLProgramConfiguration.html
+END
+CLBuildListener.html
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/util/class-use/CLBuildListener.html
+END
+CLBuildConfiguration.html
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/util/class-use/CLBuildConfiguration.html
+END
+MultiQueueBarrier.html
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/javadoc/com/jogamp/opencl/util/class-use/MultiQueueBarrier.html
+END

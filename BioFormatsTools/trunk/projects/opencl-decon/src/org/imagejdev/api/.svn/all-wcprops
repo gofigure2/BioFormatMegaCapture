@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/software/!svn/ver/7613/trunk/projects/opencl-decon/src/org/imagejdev/api
+END
+ClassPathHacker.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/software/!svn/ver/7613/trunk/projects/opencl-decon/src/org/imagejdev/api/ClassPathHacker.java
+END
+WriteNativeLibsToJAVALIBRARYPATH.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/src/org/imagejdev/api/WriteNativeLibsToJAVALIBRARYPATH.java
+END
+FHTEJBService.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/software/!svn/ver/7613/trunk/projects/opencl-decon/src/org/imagejdev/api/FHTEJBService.java
+END
+StreamToString.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/src/org/imagejdev/api/StreamToString.java
+END

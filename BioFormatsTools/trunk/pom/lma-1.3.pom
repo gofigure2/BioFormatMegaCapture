@@ -1,0 +1,36 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0     http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>jaolho.data</groupId>
+  <artifactId>lma</artifactId>
+  <packaging>jar</packaging>
+  <version>1.3</version>
+  <name>L-M Fit</name>
+  <description>A package which implements the Levenberg-Marquardt Algorithm (LMA) fit for non-linear, multidimensional parameter space for any multidimensional fit function.</description>
+  <url>http://users.utu.fi/jaolho/</url>
+
+  <licenses>
+    <license>
+      <name>Non-commercial use</name>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <dependencies>
+    <dependency>
+      <groupId>jama</groupId>
+      <artifactId>jama</artifactId>
+      <version>1.0.2</version>
+    </dependency>
+  </dependencies>
+
+  <developers>
+    <developer>
+      <id>jaolho</id>
+      <name>Janne Holopainen</name>
+      <url>http://users.utu.fi/jaolho/</url>
+    </developer>
+  </developers>
+
+</project>

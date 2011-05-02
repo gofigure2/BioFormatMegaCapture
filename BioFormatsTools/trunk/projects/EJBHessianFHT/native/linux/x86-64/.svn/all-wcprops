@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64
+END
+jocl-natives-linux-amd64.jar
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/jocl-natives-linux-amd64.jar
+END
+jocl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/jocl.jar
+END
+artifact.properties
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/artifact.properties
+END
+jocl.jnlp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/jocl.jnlp
+END
+README.TXT
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/README.TXT
+END
+jocl-javadoc.zip
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/jocl-javadoc.zip
+END
+libjocl.so
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/software/!svn/ver/7587/trunk/projects/EJBHessianFHT/native/linux/x86-64/libjocl.so
+END

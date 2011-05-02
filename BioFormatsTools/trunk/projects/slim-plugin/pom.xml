@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+    http://maven.apache.org/xsd/maven-v4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>loci</groupId>
+    <artifactId>loci-base</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>slim-plugin</artifactId>
+
+  <name>SLIMPlugin</name>
+  <description>An ImageJ plugin for combined spectral-lifetime image analysis.</description>
+  <inceptionYear>2010</inceptionYear>
+
+  <licenses>
+    <license>
+      <name>BSD</name>
+      <url>http://dev.loci.wisc.edu/svn/java/trunk/projects/slim-plugin/LICENSE.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <dependencies>
+    <dependency>
+      <groupId>${bio-formats.groupId}</groupId>
+      <artifactId>bio-formats</artifactId>
+      <version>${bio-formats.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>${imagej.groupId}</groupId>
+      <artifactId>ij</artifactId>
+      <version>${imagej1.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>${imagej.groupId}</groupId>
+      <artifactId>ij1-bridge-old</artifactId>
+      <version>${imagej.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>${imagej.groupId}</groupId>
+      <artifactId>ij2-imglib-old</artifactId>
+      <version>${imagej.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>curve-fitter</artifactId>
+      <version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>jfree</groupId>
+      <artifactId>jcommon</artifactId>
+      <version>1.0.15</version>
+    </dependency>
+    <dependency>
+      <groupId>jfree</groupId>
+      <artifactId>jfreechart</artifactId>
+      <version>1.0.12</version>
+    </dependency>
+    <dependency>
+      <groupId>mpicbg</groupId>
+      <artifactId>imglib</artifactId>
+      <version>2.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>mpicbg</groupId>
+      <artifactId>imglib-io</artifactId>
+      <version>2.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>net.java.sezpoz</groupId>
+      <artifactId>sezpoz</artifactId>
+      <version>1.7</version>
+    </dependency>
+    <dependency>
+      <groupId>org.swinglabs</groupId>
+      <artifactId>jxlayer</artifactId>
+      <version>3.0.4</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-jar-plugin</artifactId>
+        <configuration>
+          <archive>
+            <manifest>
+              <mainClass>SLIMPlugIn</mainClass>
+            </manifest>
+          </archive>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+
+  <developers>
+    <developer>
+      <id>aivar</id>
+      <name>Aivar Grislis</name>
+      <email>grislis@wisc.edu</email>
+      <url>http://loci.wisc.edu/people/aivar-grislis</url>
+      <organization>UW-Madison LOCI</organization>
+      <organizationUrl>http://loci.wisc.edu/</organizationUrl>
+      <roles>
+        <role>architect</role>
+        <role>developer</role>
+      </roles>
+      <timezone>-6</timezone>
+      <properties>
+        <picUrl>http://loci.wisc.edu/files/loci/images/people/Aivar.jpg</picUrl>
+      </properties>
+    </developer>
+  </developers>
+
+  <!-- NB: for loci-base, in case of partial checkout -->
+  <repositories>
+    <repository>
+      <id>loci.releases</id>
+      <url>http://dev.loci.wisc.edu/maven2/releases</url>
+    </repository>
+    <repository>
+      <id>loci.snapshots</id>
+      <url>http://dev.loci.wisc.edu/maven2/snapshots</url>
+    </repository>
+  </repositories>
+
+</project>

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/ext
+END
+FunctionParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/ext/FunctionParam.java
+END
+MatlabFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/ext/MatlabFunction.java
+END
+ExternalFunction.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/ext/ExternalFunction.java
+END
+FunctionWidget.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/ext/FunctionWidget.java
+END
+ExternalProgram.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/ext/ExternalProgram.java
+END
+ExtManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/ext/ExtManager.java
+END
+MatlabUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/ext/MatlabUtil.java
+END

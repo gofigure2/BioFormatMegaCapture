@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/software/!svn/ver/7641/trunk/projects/wiscscan-java/src/main/java/loci/wiscscan/auth
+END
+AutoLoginHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/software/!svn/ver/7641/trunk/projects/wiscscan-java/src/main/java/loci/wiscscan/auth/AutoLoginHandler.java
+END
+Credentials.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/software/!svn/ver/7634/trunk/projects/wiscscan-java/src/main/java/loci/wiscscan/auth/Credentials.java
+END
+KerberosAuth.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/software/!svn/ver/7641/trunk/projects/wiscscan-java/src/main/java/loci/wiscscan/auth/KerberosAuth.java
+END

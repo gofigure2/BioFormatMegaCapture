@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data
+END
+SliceWidget.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/SliceWidget.java
+END
+DataSampling.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/DataSampling.java
+END
+DataManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/DataManager.java
+END
+DataTransform.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/DataTransform.java
+END
+CollapseWidget.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/CollapseWidget.java
+END
+ThumbnailCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/ThumbnailCache.java
+END
+SamplingThumbHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/SamplingThumbHandler.java
+END
+ProjectionTransform.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/ProjectionTransform.java
+END
+SpectralTransform.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/SpectralTransform.java
+END
+TransformEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/TransformEvent.java
+END
+SamplingWidget.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/SamplingWidget.java
+END
+ImageTransform.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/ImageTransform.java
+END
+ArbitrarySlice.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/ArbitrarySlice.java
+END
+ProjectionWidget.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/ProjectionWidget.java
+END
+SpectralWidget.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/SpectralWidget.java
+END
+ThumbnailHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/ThumbnailHandler.java
+END
+TransformListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/TransformListener.java
+END
+SendToIJPane.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/SendToIJPane.java
+END
+ExportPane.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/ExportPane.java
+END
+Dataset.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/Dataset.java
+END
+DatasetWidget.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/DatasetWidget.java
+END
+DataControls.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/DataControls.java
+END
+DataCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/DataCache.java
+END
+CollapseTransform.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/main/java/loci/visbio/data/CollapseTransform.java
+END

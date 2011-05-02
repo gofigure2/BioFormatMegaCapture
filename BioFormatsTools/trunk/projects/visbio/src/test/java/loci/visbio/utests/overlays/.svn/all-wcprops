@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/test/java/loci/visbio/utests/overlays
+END
+OverlayNodedObjectTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/test/java/loci/visbio/utests/overlays/OverlayNodedObjectTest.java
+END
+DummyOverlayTransform.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/test/java/loci/visbio/utests/overlays/DummyOverlayTransform.java
+END
+DummyImageTransform.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/test/java/loci/visbio/utests/overlays/DummyImageTransform.java
+END

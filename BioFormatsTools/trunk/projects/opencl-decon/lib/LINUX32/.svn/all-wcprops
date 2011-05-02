@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/lib/LINUX32
+END
+jocl-natives-linux-i586.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/lib/LINUX32/jocl-natives-linux-i586.jar
+END
+gluegen-rt-natives-linux-i586.jar
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/lib/LINUX32/gluegen-rt-natives-linux-i586.jar
+END
+jogl-natives-linux-i586.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/lib/LINUX32/jogl-natives-linux-i586.jar
+END
+nativewindow-natives-linux-i586.jar
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/lib/LINUX32/nativewindow-natives-linux-i586.jar
+END
+joal-natives-linux-i586.jar
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/lib/LINUX32/joal-natives-linux-i586.jar
+END

@@ -1,0 +1,5 @@
+# Name: SLIM Plugin
+# Author: Aivar Grislis
+# Date: 2010/10/15
+
+Plugins->Lifetime, "SLIM Analysis Plugin", loci.slim.SLIMPlugin("")

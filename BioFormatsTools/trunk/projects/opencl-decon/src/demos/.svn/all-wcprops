@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/software/!svn/ver/7613/trunk/projects/opencl-decon/src/demos
+END
+HelperUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/src/demos/HelperUtils.java
+END
+plugins.config
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/software/!svn/ver/7613/trunk/projects/opencl-decon/src/demos/plugins.config
+END
+Iterative3DDeconWS.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/software/!svn/ver/7613/trunk/projects/opencl-decon/src/demos/Iterative3DDeconWS.java
+END
+ProgramTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/src/demos/ProgramTest.java
+END
+OpenCL_SobelFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/src/demos/OpenCL_SobelFilter.java
+END
+SobelWS.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/software/!svn/ver/7613/trunk/projects/opencl-decon/src/demos/SobelWS.java
+END
+SobelLocal.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/software/!svn/ver/7613/trunk/projects/opencl-decon/src/demos/SobelLocal.java
+END
+ConvolutionOpenCL.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/software/!svn/ver/7613/trunk/projects/opencl-decon/src/demos/ConvolutionOpenCL.java
+END
+sobel.cl
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/src/demos/sobel.cl
+END
+conv.cl
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/software/!svn/ver/7613/trunk/projects/opencl-decon/src/demos/conv.cl
+END
+FHT3DExample.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/src/demos/FHT3DExample.java
+END
+SobelFilterExample.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/src/demos/SobelFilterExample.java
+END
+TestWS.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/software/!svn/ver/7613/trunk/projects/opencl-decon/src/demos/TestWS.java
+END
+Iterative_3D_Deconvolution.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/software/!svn/ver/7613/trunk/projects/opencl-decon/src/demos/Iterative_3D_Deconvolution.java
+END
+fht.cl
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/src/demos/fht.cl
+END

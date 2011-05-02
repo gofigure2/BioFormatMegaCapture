@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/test/resources/loci/visbio/utests/overlays/data
+END
+freeform_possible_bowties.txt
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/test/resources/loci/visbio/utests/overlays/data/freeform_possible_bowties.txt
+END
+freeform_possible_bowties2.txt
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/test/resources/loci/visbio/utests/overlays/data/freeform_possible_bowties2.txt
+END
+polyline_almost_vertical.txt
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/test/resources/loci/visbio/utests/overlays/data/polyline_almost_vertical.txt
+END
+polyline_vertical.txt
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/test/resources/loci/visbio/utests/overlays/data/polyline_vertical.txt
+END
+freeform_possible_bowties_and_invalid_sets.txt
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/test/resources/loci/visbio/utests/overlays/data/freeform_possible_bowties_and_invalid_sets.txt
+END
+polyline_invalid_set.txt
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/test/resources/loci/visbio/utests/overlays/data/polyline_invalid_set.txt
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/test/resources/loci/visbio/utests/overlays/data/README.txt
+END
+polylines_with_parallel_overlapping_segments.txt
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/software/!svn/ver/7587/trunk/projects/visbio/src/test/resources/loci/visbio/utests/overlays/data/polylines_with_parallel_overlapping_segments.txt
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/lib/WINDOWS32
+END
+nativewindow-natives-windows-i586.jar
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/lib/WINDOWS32/nativewindow-natives-windows-i586.jar
+END
+joal-natives-windows-i586.jar
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/lib/WINDOWS32/joal-natives-windows-i586.jar
+END
+JOCL-0.1.4-beta1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/lib/WINDOWS32/JOCL-0.1.4-beta1.jar
+END
+jocl-natives-windows-i586.jar
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/lib/WINDOWS32/jocl-natives-windows-i586.jar
+END
+JOCL-windows-x86.dll
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/lib/WINDOWS32/JOCL-windows-x86.dll
+END
+gluegen-rt-natives-windows-i586.jar
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/lib/WINDOWS32/gluegen-rt-natives-windows-i586.jar
+END
+jogl-natives-windows-i586.jar
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/lib/WINDOWS32/jogl-natives-windows-i586.jar
+END

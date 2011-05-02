@@ -1,0 +1,4 @@
+com.jogamp.opencl
+com.jogamp.opencl.gl
+com.jogamp.opencl.impl
+com.jogamp.opencl.util

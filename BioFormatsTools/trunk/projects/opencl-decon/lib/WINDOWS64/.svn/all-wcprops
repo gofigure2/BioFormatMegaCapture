@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/lib/WINDOWS64
+END
+jocl-natives-linux-amd64.jar
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/lib/WINDOWS64/jocl-natives-linux-amd64.jar
+END
+nativewindow-natives-windows-amd64.jar
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/lib/WINDOWS64/nativewindow-natives-windows-amd64.jar
+END
+JOCL-windows-x86_64.dll
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/lib/WINDOWS64/JOCL-windows-x86_64.dll
+END
+joal-natives-windows-amd64.jar
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/lib/WINDOWS64/joal-natives-windows-amd64.jar
+END
+JOCL-0.1.4-beta1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/lib/WINDOWS64/JOCL-0.1.4-beta1.jar
+END
+jocl-natives-windows-amd64.jar
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/lib/WINDOWS64/jocl-natives-windows-amd64.jar
+END
+gluegen-rt-natives-windows-amd64.jar
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/lib/WINDOWS64/gluegen-rt-natives-windows-amd64.jar
+END
+jogl-natives-windows-amd64.jar
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/software/!svn/ver/7587/trunk/projects/opencl-decon/lib/WINDOWS64/jogl-natives-windows-amd64.jar
+END

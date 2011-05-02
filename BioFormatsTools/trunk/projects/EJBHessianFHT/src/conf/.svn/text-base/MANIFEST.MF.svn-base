@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-NativeCode: native/macosx/libgluegen-rt.jnilib;
+ osname=mac os x;
+ processor=x86;
+ processor=ppc,
+ native/linux/x86/libgluegen-rt.so;
+ osname=linux;
+ processor=x86,
+ native/linux/x86-64/libjocl.so;
+ osname=linux;
+ processor=x86-64,
+ native/windows/x86/gluegen-rt.dll;
+ osname=win32;
+ processor=x86,
+ native/windows/x86-64/gluegen-rt.dll;
+ osname=win32;
+ processor=x86-64

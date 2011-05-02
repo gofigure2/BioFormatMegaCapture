@@ -1,0 +1,65 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0     http://maven.apache.org/maven-v4_0_0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>jace</groupId>
+  <artifactId>jace</artifactId>
+  <packaging>jar</packaging>
+  <version>r39</version>
+  <name>Jace</name>
+  <description>Jace is a set of C++ and Java libraries and programs based on JNI that make it incredibly easy to write C++ code that integrates with the Java Virtual Machine (JVM). Jace is like Alphawork's easyJNI, but easier to use, with more features, and more power.</description>
+  <url>http://sourceforge.net/projects/jace/</url>
+  <inceptionYear>2001</inceptionYear>
+
+  <licenses>
+    <license>
+      <name>BSD</name>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <dependencies>
+    <dependency>
+      <groupId>asm</groupId>
+      <artifactId>asm</artifactId>
+      <version>3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>asm</groupId>
+      <artifactId>asm-tree</artifactId>
+      <version>3.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.5.5</version>
+    </dependency>
+
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>0.9.11</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.sourceforge.retroweaver</groupId>
+      <artifactId>retroweaver-rt</artifactId>
+      <version>2.0.7</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+
+  <developers>
+    <developer>
+      <id>cowwoc</id>
+      <name>Gili Tzabari</name>
+      <url>http://sourceforge.net/users/cowwoc</url>
+    </developer>
+    <developer>
+      <id>rreyelts</id>
+      <name>Toby Reyelts</name>
+      <url>http://sourceforge.net/users/rreyelts</url>
+    </developer>
+  </developers>
+
+</project>

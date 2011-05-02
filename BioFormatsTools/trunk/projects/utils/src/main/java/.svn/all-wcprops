@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/software/!svn/ver/7640/trunk/projects/utils/src/main/java
+END
+EditDistance.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/software/!svn/ver/7640/trunk/projects/utils/src/main/java/EditDistance.java
+END
+FileOpsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/software/!svn/ver/7587/trunk/projects/utils/src/main/java/FileOpsTest.java
+END
+SysProps.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/software/!svn/ver/7587/trunk/projects/utils/src/main/java/SysProps.java
+END
+RandomPass.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/software/!svn/ver/7587/trunk/projects/utils/src/main/java/RandomPass.java
+END
+UniqueTraces.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/software/!svn/ver/7640/trunk/projects/utils/src/main/java/UniqueTraces.java
+END
+BinaryDiff.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/software/!svn/ver/7587/trunk/projects/utils/src/main/java/BinaryDiff.java
+END
+TestMem.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/software/!svn/ver/7640/trunk/projects/utils/src/main/java/TestMem.java
+END
+UnusedImports.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/software/!svn/ver/7587/trunk/projects/utils/src/main/java/UnusedImports.java
+END
+SortList.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/software/!svn/ver/7587/trunk/projects/utils/src/main/java/SortList.java
+END
+Binary.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/software/!svn/ver/7587/trunk/projects/utils/src/main/java/Binary.java
+END
+FixEOLSpaces.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/software/!svn/ver/7587/trunk/projects/utils/src/main/java/FixEOLSpaces.java
+END
+Ascii.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/software/!svn/ver/7587/trunk/projects/utils/src/main/java/Ascii.java
+END
+LineLength.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/software/!svn/ver/7640/trunk/projects/utils/src/main/java/LineLength.java
+END
+CompareTrees.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/software/!svn/ver/7640/trunk/projects/utils/src/main/java/CompareTrees.java
+END
+DownloadURL.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/software/!svn/ver/7587/trunk/projects/utils/src/main/java/DownloadURL.java
+END
+DumpClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/software/!svn/ver/7587/trunk/projects/utils/src/main/java/DumpClass.java
+END

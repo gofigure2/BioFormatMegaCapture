@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/software/!svn/ver/7654/trunk/projects/slim-plugin/src/main/java/loci/slim
+END
+SLIM_PlugIn.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/software/!svn/ver/7587/trunk/projects/slim-plugin/src/main/java/loci/slim/SLIM_PlugIn.java
+END
+ChunkyPixel.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/software/!svn/ver/7587/trunk/projects/slim-plugin/src/main/java/loci/slim/ChunkyPixel.java
+END
+MyStackWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/software/!svn/ver/7587/trunk/projects/slim-plugin/src/main/java/loci/slim/MyStackWindow.java
+END
+SLIMProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/software/!svn/ver/7650/trunk/projects/slim-plugin/src/main/java/loci/slim/SLIMProcessor.java
+END
+IChunkyPixelTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/software/!svn/ver/7587/trunk/projects/slim-plugin/src/main/java/loci/slim/IChunkyPixelTable.java
+END
+ExcitationFileHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/software/!svn/ver/7645/trunk/projects/slim-plugin/src/main/java/loci/slim/ExcitationFileHandler.java
+END
+IGrayScaleImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/software/!svn/ver/7587/trunk/projects/slim-plugin/src/main/java/loci/slim/IGrayScaleImage.java
+END
+DecayGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/software/!svn/ver/7649/trunk/projects/slim-plugin/src/main/java/loci/slim/DecayGraph.java
+END
+Excitation.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/software/!svn/ver/7644/trunk/projects/slim-plugin/src/main/java/loci/slim/Excitation.java
+END
+ChunkyPixelEffectIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/software/!svn/ver/7587/trunk/projects/slim-plugin/src/main/java/loci/slim/ChunkyPixelEffectIterator.java
+END
+CursorHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/software/!svn/ver/7643/trunk/projects/slim-plugin/src/main/java/loci/slim/CursorHelper.java
+END
+GrayScaleImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/software/!svn/ver/7604/trunk/projects/slim-plugin/src/main/java/loci/slim/GrayScaleImage.java
+END
+ChunkyPixelTableImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/software/!svn/ver/7587/trunk/projects/slim-plugin/src/main/java/loci/slim/ChunkyPixelTableImpl.java
+END
+ISelectListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/software/!svn/ver/7587/trunk/projects/slim-plugin/src/main/java/loci/slim/ISelectListener.java
+END

@@ -1,0 +1,3 @@
+gluegen.build.number="${build.number}"
+jogl.build.number=manual-build
+jocl.build.number=manual-build

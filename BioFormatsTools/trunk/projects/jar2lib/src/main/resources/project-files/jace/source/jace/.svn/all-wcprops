@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace
+END
+JFieldProxyHelper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/JFieldProxyHelper.cpp
+END
+JFieldProxy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/JFieldProxy.cpp
+END
+JEnlister.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/JEnlister.cpp
+END
+JConstructor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/JConstructor.cpp
+END
+JNIException.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/JNIException.cpp
+END
+JClassImpl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/JClassImpl.cpp
+END
+OptionList.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/OptionList.cpp
+END
+VmLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/VmLoader.cpp
+END
+WrapperVmLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/WrapperVmLoader.cpp
+END
+JSignature.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/JSignature.cpp
+END
+UnixVmLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/UnixVmLoader.cpp
+END
+JClass.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/JClass.cpp
+END
+JArguments.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/JArguments.cpp
+END
+JNIHelper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/JNIHelper.cpp
+END
+StaticVmLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/StaticVmLoader.cpp
+END
+JFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/JFactory.cpp
+END
+JArrayHelper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/JArrayHelper.cpp
+END
+JArray.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/JArray.cpp
+END
+BaseException.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/BaseException.cpp
+END
+JMethod.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/JMethod.cpp
+END
+ElementProxyHelper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/ElementProxyHelper.cpp
+END
+ElementProxy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/ElementProxy.cpp
+END
+Peer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/Peer.cpp
+END
+Win32VmLoader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/Win32VmLoader.cpp
+END
+javacast.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/javacast.cpp
+END
+JFieldHelper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/JFieldHelper.cpp
+END
+JField.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/software/!svn/ver/7587/trunk/projects/jar2lib/src/main/resources/project-files/jace/source/jace/JField.cpp
+END
