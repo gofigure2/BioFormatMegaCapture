@@ -1,0 +1,10 @@
+Written by Evan Schwab
+05/01/11
+
+metadataConversion.sh converts metadata from an input image file to a MegaCapture (.meg) metadata format.
+
+The command has three (3) required inputs in specific order:
+
+1) metadata file (e.g. log.txt)
+2) name of the .meg output file you want without the extension (e.g. datetest)
+3) the extension of the input image data that defines the format of the input metadata file (e.g. zvi)
