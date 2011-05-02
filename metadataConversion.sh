@@ -59,7 +59,7 @@ then
 	sed -e 's/\tSizeT =/SizeT:/g' -e 's/\tSizeZ =/SizeZ:/g' -e 's/\tSizeC =/SizeC:/g' -e 's/\tValid bits per pixel =/Valid bits per pixel:/g' $INPUTFILE > input.tmp
 	
 
-	cp Meg.meg MegaCaptureFormat.meg
+	mv Meg.meg MegaCaptureFormat.meg
 		
 	echo $1 $2 $3
 	
@@ -71,7 +71,7 @@ then
 		echo "s/${ZVI[${i}]}:/${MEG[${i}]}/g"
 		sed "s/${ZVI[${i}]}:/${MEG[${i}]}/" input.tmp > zvi.tmp
 
-		cp zvi.tmp input.tmp
+		mv zvi.tmp input.tmp
 
 	done
 
@@ -80,7 +80,7 @@ then
 
 		echo "s/$(grep ^${MEG[${j}]} MegaCaptureFormat.meg)/$(grep ^${MEG[${j}]} input.tmp)/g"
 		sed "s/$(grep ^${MEG[${j}]} MegaCaptureFormat.meg)/$(grep ^${MEG[${j}]} input.tmp)/" MegaCaptureFormat.meg > mega.tmp
-		cp mega.tmp MegaCaptureFormat.meg
+		mv mega.tmp MegaCaptureFormat.meg
 		echo $j
 	done
 
@@ -92,63 +92,109 @@ then
         	echo ${DIM[${k}]}
 	done
 
-	tail -7	MegaCaptureFormat.meg >	ImageInfo.meg
+	tail -7	MegaCaptureFormat.meg >	ImageInfo_ToUpdate.meg
 	
+
+
 	# 7 is TM, 8 is ZS, 9 is CH
 	NUMIMAGES=$((${DIM[7]}+${DIM[8]}+${DIM[9]}))
 	echo $NUMIMAGES
 	
+	D=$((${DIM[7]}-1))
+	E=$((${DIM[8]}-1))
+	F=$((${DIM[9]}-1))
+
 	#first is TM
-	for k in {1..${DIM[7]}}
+	for t in $(eval echo {0..${D}})
 	do
 
-		sed 's/zs0000/$(printf %4.4u $k)/' MegaCaptureFormat.meg > LoopedMegaFormat.meg	
-		
-		cat LoopedMegaFormat.meg ImageInfo.meg > MegaCaptureFormat.meg
-
 		#second is CH
-		for m in {1..${DIM[9]}}
+		for c in $(eval echo {0..${F}})
 		do
-
-			sed 's/ch00/$(printf %2.2u $m)/' MegaCaptureFormat.meg > LoopedMegaFormat.meg
-
-	                cat LoopedMegaFormat.meg ImageInfo.meg > MegaCaptureFormat.meg
-
+		
 			#third is ZS
-			for n in {1..${DIM[8]}}
+			for z in $(eval echo {0..${E}})
 			do
+
+
+				echo -e "\
+<Image>\n\
+Filename image-PL00-CO00-RO00-ZT00-YT00-XT00-TM$(printf %4.4u $t)-ch$(printf %2.2u $c)-zs$(printf %4.4u $z).png\n\
+DateTime 2009-11-05 09:44:11\n\
+StageX 1000\n\
+StageY -1000\n\
+Pinhole 44.216\n\
+</Image>" > loopedMegaCaptureFormat.meg
+				
+				cat MegaCaptureFormat.meg loopedMegaCaptureFormat.meg > new.meg
+
+				mv new.meg MegaCaptureFormat.meg
+
+
+
+
+
+
 			
-				sed 's/TM0000/$(printf %4.4u $n)/' MegaCaptureFormat.meg > LoopedMegaForma$
-	
-        	                cat LoopedMegaFormat.meg ImageInfo.meg > MegaCaptureFormat.meg
+#				echo $z
+#				sed "s/zs0000/zs$(printf %4.4u $z)/" ImageInfo_ToUpdate.meg > ImageInfoTmp$z.meg 
+#	      	                cat MegaCaptureFormat.meg ImageInfoTmp$z.meg > LongerMegaCaptureFormat.meg
+
+				
+				
+#	                        mv LongerMegaCaptureFormat.meg MegaCaptureFormat.meg
 
 			done
 
+			
+
+#			echo $c
+#			sed "s/ch00/ch$(printf %2.2u $c)/" ImageInfoTmp1.meg > ImageInfoTmp2.meg
+
+#                       cat MegaCaptureFormat.meg ImageInfoTmp2.meg > LongerMegaCaptureFormat.meg
+
+                       # mv ImageInfoTmp.meg ImageInfo_ToUpdate.meg
+                       # mv LongerMegaCaptureFormat.meg MegaCaptureFormat.meg
+
+
 		done
+
+
+#               echo $t
+#               echo "s/TM0000/TM$(printf %4.4u $t)/"
+#               sed "s/TM0000/TM$(printf %4.4u $t)/" ImageInfoTmp2.meg > ImageInfoTmp3.meg
+
+#               cat MegaCaptureFormat.meg ImageInfoTmp3.meg > LongerMegaCaptureFormat.meg
+
+                #mv ImageInfoTmp3.meg ImageInfo_ToUpdate.meg
+#               mv LongerMegaCaptureFormat.meg MegaCaptureFormat.meg
+
 
 	done
 
 
 
 		# 7 is TM, 8 is ZS, 9 is CH
+
 		#Need to duplicate
-#<Image>
-#Filename image-PL00-CO00-RO00-ZT00-YT00-XT00-TM0000-ch00-zs0000.png
-#DateTime 2009-11-05 09:44:11
-#StageX 1000
-#StageY -1000
-#Pinhole 44.216
-#</Image>
+
+
+#cat MegaCaptureFormat.meg | echo "<Image>\n\
+#	Filename image-PL00-CO00-RO00-ZT00-YT00-XT00-TM$(printf %4.4u $t)-ch$(printf %2.2u $c)-zs$(printf %4.4u $z).png\n\
+#	DateTime 2009-11-05 09:44:11\n\
+#	StageX 1000\n\
+#	StageY -1000\n\
+#	Pinhole 44.216\n\
+#	</Image>\n" > loopedMegaCaptureFormat.meg
 
 #with different TM0000-ch00-zs0000 looped
-		sed 's/
+#		sed 's/
 		
-	done
 
 	stat -c "%y" log.txt | cut -c 1-19 > DATETIME.txt
 	echo "s/^DateTime.*$/DateTime $(cat DATETIME.txt)/g"
 	sed "s/^DateTime.*$/DateTime $(cat DATETIME.txt)/g" MegaCaptureFormat.meg > $2.meg
 
-   
+rm loopedMegaCaptureFormat.meg ImageInfo_ToUpdate.meg input.tmp DATETIME.txt MegaCaptureFormat.meg   
 
 fi

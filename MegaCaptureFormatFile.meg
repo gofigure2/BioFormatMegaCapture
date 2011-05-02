@@ -22,18 +22,3 @@ ChannelColor02 255
 ChannelDepth 8
 FileType PNG
 </ImageSessionData>
-<Image>
-Filename image-PL00-CO00-RO00-ZT00-YT00-XT00-TM0000-ch00-zs0000.png
-DateTime 2009-11-05 09:44:11
-StageX 1000
-StageY -1000
-Pinhole 44.216
-</Image>
-<Image>
-Filename image-PL00-CO00-RO00-ZT00-YT00-XT00-TM0000-ch00-zs0001.png
-DateTime 2009-11-05 09:44:11
-StageX 1000
-StageY -1000
-Pinhole 44.216
-</Image>
-
