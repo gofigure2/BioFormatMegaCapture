@@ -1,6 +1,6 @@
 #!/bin/bash
 
-
+#This function take input metadata and converts it to MegaCapture metadata formatted file.
 
 cp MegaCaptureFormatFile.meg MegaCaptureFormat.meg
 
@@ -132,4 +132,6 @@ Pinhole 44.216\n\
 
 	rm loopedMegaCaptureFormat.meg input.tmp DATETIME.txt MegaCaptureFormat.meg   
 
+
+		
 fi
