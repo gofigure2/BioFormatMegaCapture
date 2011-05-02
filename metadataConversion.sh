@@ -48,7 +48,10 @@ then
         MEG[13]="ChannelDepth"   
 	
 
+	# Delete parameters that get confused with DimensionX and DimensionY
 	sed -e '/DimensionXT/d' -e '/DimensionYT/d' MegaCaptureFormat.meg > Meg.meg
+	
+	# Rearrange SizeT, SizeZ, SizeC and Valid bits per pixel to fit format of rest of parameters
 	sed -e 's/\tSizeT =/SizeT:/g' -e 's/\tSizeZ =/SizeZ:/g' -e 's/\tSizeC =/SizeC:/g' -e 's/\tValid bits per pixel =/Valid bits per pixel:/g' $INPUTFILE > input.tmp
 	
 
@@ -58,6 +61,7 @@ then
 	for i in {1..13}
 	do
 
+		# Replaces elements in vector ZVI ending in colon with elements in vector MEG in tmp file input.tmp which is a tmp zvi metadata format 	
 		sed "s/${ZVI[${i}]}:/${MEG[${i}]}/" input.tmp > zvi.tmp
 
 		mv zvi.tmp input.tmp
@@ -67,6 +71,7 @@ then
 	for j in {1..13}
 	do
 
+		# Replaces lines in MegaCaptureFormat.meg with the converted lines in the tmp zvi metadata format file input.tmp
 		sed "s/$(grep ^${MEG[${j}]} MegaCaptureFormat.meg)/$(grep ^${MEG[${j}]} input.tmp)/" MegaCaptureFormat.meg > mega.tmp
 		mv mega.tmp MegaCaptureFormat.meg
 		
@@ -75,14 +80,13 @@ then
 
 	for k in {7..9}
 	do
+	
+		# Locates the parameters of Time points, z slice, and channel and keeps their parameter values in DIM
 		DIM[${k}]=$(grep "${MEG[${k}]}" MegaCaptureFormat.meg  | cut -c 13-) 
         	
 	done
 
-	tail -7	MegaCaptureFormat.meg >	ImageInfo_ToUpdate.meg
 	
-
-
 	# 7 is TM, 8 is ZS, 9 is CH
 	
 	TM=$((${DIM[7]}-1))
@@ -102,6 +106,7 @@ then
 			do
 
 
+				# prints these image lines with looped number for TM, ch, zs in 0001, 01, 0001 number format
 				echo -e "\
 <Image>\n\
 Filename image-PL00-CO00-RO00-ZT00-YT00-XT00-TM$(printf %4.4u $t)-ch$(printf %2.2u $c)-zs$(printf %4.4u $z).png\n\
@@ -121,10 +126,10 @@ Pinhole 44.216\n\
 
 	done
 
-
-	stat -c "%y" log.txt | cut -c 1-19 > DATETIME.txt
+	# aquires date and time of input metadata file and replaces old date and time everywhere in MegaCaptureFormat.meg 
+	stat -c "%y" $1 | cut -c 1-19 > DATETIME.txt
 	sed "s/^DateTime.*$/DateTime $(cat DATETIME.txt)/g" MegaCaptureFormat.meg > $2.meg
 
-	rm loopedMegaCaptureFormat.meg ImageInfo_ToUpdate.meg input.tmp DATETIME.txt MegaCaptureFormat.meg   
+	rm loopedMegaCaptureFormat.meg input.tmp DATETIME.txt MegaCaptureFormat.meg   
 
 fi
