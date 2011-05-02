@@ -92,11 +92,44 @@ then
         	echo ${DIM[${k}]}
 	done
 
-
+	tail -7	MegaCaptureFormat.meg >	ImageInfo.meg
+	
+	# 7 is TM, 8 is ZS, 9 is CH
 	NUMIMAGES=$((${DIM[7]}+${DIM[8]}+${DIM[9]}))
 	echo $NUMIMAGES
-	for k in {1..$NUMIMAGES}
+	
+	#first is TM
+	for k in {1..${DIM[7]}}
 	do
+
+		sed 's/zs0000/$(printf %4.4u $k)/' MegaCaptureFormat.meg > LoopedMegaFormat.meg	
+		
+		cat LoopedMegaFormat.meg ImageInfo.meg > MegaCaptureFormat.meg
+
+		#second is CH
+		for m in {1..${DIM[9]}}
+		do
+
+			sed 's/ch00/$(printf %2.2u $m)/' MegaCaptureFormat.meg > LoopedMegaFormat.meg
+
+	                cat LoopedMegaFormat.meg ImageInfo.meg > MegaCaptureFormat.meg
+
+			#third is ZS
+			for n in {1..${DIM[8]}}
+			do
+			
+				sed 's/TM0000/$(printf %4.4u $n)/' MegaCaptureFormat.meg > LoopedMegaForma$
+	
+        	                cat LoopedMegaFormat.meg ImageInfo.meg > MegaCaptureFormat.meg
+
+			done
+
+		done
+
+	done
+
+
+
 		# 7 is TM, 8 is ZS, 9 is CH
 		#Need to duplicate
 #<Image>
