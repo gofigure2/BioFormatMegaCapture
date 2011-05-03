@@ -47,12 +47,12 @@ then
 	
 
 	# Delete parameters that get confused with DimensionX and DimensionY
-	sed -e '/DimensionXT/d' -e '/DimensionYT/d' MegaCaptureFormat.meg > Meg.meg
 
-	
+	sed -e 's/DimensionXT/DXT/g' -e 's/DimensionYT/DYT/g' -e 's/DimensionZT/DZT/g' MegaCaptureFormat.meg > Meg.meg
+
 	# Rearrange SizeT, SizeZ, SizeC and Valid bits per pixel to fit format of rest of parameters
 	sed -e 's/\tSizeT =/SizeT:/g' -e 's/\tSizeZ =/SizeZ:/g' -e 's/\tSizeC =/SizeC:/g' -e 's/\tValid bits per pixel =/Valid bits per pixel:/g' $INPUTFILE > input.tmp
-	
+
 
  
 
@@ -95,10 +95,14 @@ then
 
 		# Replaces lines in MegaCaptureFormat.meg with the converted lines in the tmp metadata format file input.tmp
 
-		sed "s/$(grep ^${MEG[${j}]} MegaCaptureFormat.meg)/$(grep ^${MEG[${j}]} input.tmp)/" MegaCaptureFormat.meg > mega.tmp
-		mv mega.tmp MegaCaptureFormat.meg
+		sed "s/$(grep ^${MEG[${j}]} MegaCaptureFormat.meg)/$(grep ^${MEG[${j}]} input.tmp)/" MegaCaptureFormat.meg > mega.meg
+		mv mega.meg MegaCaptureFormat.meg
 		
 	done
+	
+	
+	sed -e 's/DXT/DimensionXT/g' -e 's/DYT/DimensionYT/g' -e 's/DZT/DimensionZT/g' MegaCaptureFormat.meg > tmp.meg
+	mv tmp.meg MegaCaptureFormat.meg
 
 
 	for k in {7..9}
@@ -118,7 +122,7 @@ then
 	CH=$((${DIM[9]}-1))
 
 else
-	echo "This is an unsupported file extension."
+	echo "This is an unsupported file extension!!!"
 fi
 
 	#first is TM
@@ -149,14 +153,20 @@ Pinhole 44.216\n\
 
 				mv new.meg MegaCaptureFormat.meg
 				
-				mv image-PL00-CO00-RO00-ZT00-YT00-XT00-TM$t-ch$c-zs$z.png image-PL00-CO00-RO00-ZT00-YT00-XT00-TM$(printf %4.4u $t)-ch$(printf %2.2u $c)-zs$(printf %4.4u $z).png
+				mv image-PL00-CO00-RO00-ZT00-YT00-XT00-TM$t-ch$c-zs$z.png $2-PL00-CO00-RO00-ZT00-YT00-XT00-TM$(printf %4.4u $t)-ch$(printf %2.2u $c)-zs$(printf %4.4u $z).png
 
 			done
                     
 		done
 
 	done
+	
+	
+	sed '/^$/d' MegaCaptureFormat.meg > tmp.tmp
+	mv tmp.tmp MegaCaptureFormat.meg
 
+
+	
 	# aquires date and time of input metadata file and replaces old date and time everywhere in MegaCaptureFormat.meg 
 
 	stat -c "%y" $1 | cut -c 1-19 > DATETIME.txt

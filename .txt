@@ -4,10 +4,10 @@ Reading LSM metadata for series #0
 Unknown Correction value 'C-Apochromat' will be stored as "Other"
 Unknown LaserMedium value '' will be stored as "Other"
 Unknown LaserType value 'DPSS 561-10' will be stored as "Other"
-Initialization took 3.521s
+Initialization took 3.429s
 
 Reading core metadata
-Filename = Data/14-16hpf_ear_02_t1_15.lsm
+Filename = ../Data/14-16hpf_ear_02_t1_15.lsm
 Series count = 1
 Series #0 :
 	Image count = 2700
