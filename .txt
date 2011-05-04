@@ -1,21 +1,21 @@
 Checking file format [Zeiss Vision Image (ZVI)]
 Initializing reader
 Populating metadata
-Initialization took 1.417s
+Initialization took 1.6s
 
 Reading core metadata
-Filename = ../Data/SNAP-154443-0011.zvi
+Filename = ../Data/embryos_afterimaging.zvi
 Series count = 1
 Series #0 :
 	Image count = 1
-	RGB = false (1) 
+	RGB = true (3) 
 	Interleaved = true
 	Indexed = false (false color)
 	Width = 1388
 	Height = 1040
 	SizeZ = 1
 	SizeT = 1
-	SizeC = 1
+	SizeC = 3 (effectively 1)
 	Thumbnail size = 128 x 95
 	Endianness = intel (little)
 	Dimension order = XYCZT (certain)
@@ -28,50 +28,44 @@ Series #0 :
 
 
 Reading global metadata
-Acquisition Bit Depth: 12
-Acquisition Date: 4675742144200677165
+Acquisition Bit Depth: 36
+Acquisition Date: 4675767590752211775
 Amplification Index: 0
-ApoTome Auto Shutter Used: 0
-ApoTome Averaging Count: 1
-ApoTome Filter Name: Weak
-ApoTome Full Phase Shift: 1045
-ApoTome Grating Period: 11.737984496124032
-ApoTome Grid Name: AL
-ApoTome Grid Position: 116
-ApoTome Processing Mode: 1
-Apotome Filter Strength: 14.0
-ApotomeCamFilterHarmonics: 36
-ApotomeCamNormalize: 0
+AxioCam Black Reference: 0
+AxioCam Color Model: 1
+AxioCam Delay Time: 0
+AxioCam MicroScanning: 0
+AxioCam NIR Mode: 0
+AxioCam Resolution: 9729
+AxioCam Selector: 0
+AxioCam Shutter Control: 0
+AxioCam Shutter Signal: 0
+AxioCam Type: 8201
 BlackValue: 0.0
-Camera: ApotomeCam
-Camera Adapter Magnification: 1.0
+Camera: AxioCamMR3
 Camera Binning: 1
-Camera Bit Depth: 12
+Camera Bit Depth: 36
 Camera Frame Height: 1040
 Camera Frame Width: 1388
 Camera Framestart Left: 0
 Camera Framestart Top: 0
 Camera Shading Correction: 0
-CameraFrameImageOrientation: 4
+CameraFrameImageOrientation: 0
 CameraFramePixelDistance: 6.45
 CameraFrameScalingFactor: 1.0
-CameraLiveScalingFactor: 0.3333333333333333
-Condenser Contrast: 1
-Condenser N.A.: 0.15966207759699624
-ContrastManagerMode: 3
+CameraLiveScalingFactor: 0.2
+DeepView Slider Name: 0
 DeviceScalingName: AxioCamMR3
 Document Type: Image
-Exposure Time [ms]: 32000.0
-Filename: SNAP-154443-0011.zvi
-Focus Position: -79.96000000000001
-FocusDepth: 21.484375
-GammaValue: 1.0
-GammaValue 0: 1.0
+Exposure Time [ms]: 4.0
+Filename: embryos_afterimaging.zvi
+GammaValue: 0.45
+GammaValue 0: 0.45
 Image Channel Index 0: 0
 Image Index T: 0
 Image Index Z 0: 0
 Image IndexS: 0
-Image Memory Usage (RAM): 2887104
+Image Memory Usage (RAM): 8661184
 Image acquisition Index: 0
 ImageHeight: 1040
 ImageRelativeTime1 0: 0
@@ -80,53 +74,25 @@ ImageRelativeTime3 0: 0
 ImageRelativeTime4 0: 0
 ImageTile Index: 0
 ImageWidth: 1388
-Lightmanager Mode: 2
-Microscope Name: Axio Observer.Z1
-Microscope Port: 34
-MicroscopeIllumination: -1
-MicroscopeMagnification: 5.0
-MicroscopeType: 64
 Number Raw Count: 1
 NumberOfRawImages: 1
 ObjectType: 1
-Objective Contrast Method: 1
-Objective ID: Objective.420630-9900-000
-Objective Immersion Type: 1
-Objective Magnification: 5.0
-Objective N.A.: 0.16
-Objective Name: Plan-Apochromat 5x/0.16
-Objective Turret Position: 1
-Objective Working Distance: 12200.0
-Ocular Total Magnification: 50.0
-Optovar: 1.0
-Original Stage Position X: 410.5
-Original Stage Position Y: 1352.0
-PixelType: 4
-Reflected Light Shutter: 2
-Reflector: 47 HE Cyan Fluorescent Prot
-Reflector ID: Reflector.489047-9901-000
-Reflector Position: 4
-ReflectorMagnification: 1.0
+PixelType: 8
 RelFocusPosition1 0: 0.0
 RelFocusPosition2 0: 0.0
-Scale Factor for X: 1.29
-Scale Factor for Y: 1.29
+Scale Factor for X: 1.0
+Scale Factor for Y: 1.0
 Scale Factor for Z: 1.0
-Scale Height: 1341.6000000000001
-Scale Unit for X: 76
-Scale Unit for Y: 76
+Scale Height: 1040.0
+Scale Unit for X: 0
+Scale Unit for Y: 0
 Scale Unit for Z: 0
-Scale Width: 1790.52
-Stage Position X: 410.5
-Stage Position X 0: 410.5
-Stage Position Y: 1352.0
-Stage Position Y 0: 1352.0
-Transmitted Light Shutter: 1
-TransmittedLightHalogenLampMode: 4
-TransmittedLightHalogenLampVoltage: 2.124853228962818
-WhiteValue: 0.03571428571428571
-X position for position #1: 410.5
-Y position for position #1: 1352.0
+Scale Width: 1388.0
+Stage Position X 0: 694.0
+Stage Position Y 0: 520.0
+WhiteValue: 0.0625
+X position for position #1: 694.0
+Y position for position #1: 520.0
 tag_ID_2071 0: 0.0
 
 Reading metadata
