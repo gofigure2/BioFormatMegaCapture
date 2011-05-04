@@ -1,273 +1,132 @@
-Checking file format [Zeiss Laser-Scanning Microscopy]
+Checking file format [Zeiss Vision Image (ZVI)]
 Initializing reader
-Reading LSM metadata for series #0
-Unknown Correction value 'C-Apochromat' will be stored as "Other"
-Unknown LaserMedium value '' will be stored as "Other"
-Unknown LaserType value 'DPSS 561-10' will be stored as "Other"
-Initialization took 3.429s
+Populating metadata
+Initialization took 1.417s
 
 Reading core metadata
-Filename = ../Data/14-16hpf_ear_02_t1_15.lsm
+Filename = ../Data/SNAP-154443-0011.zvi
 Series count = 1
 Series #0 :
-	Image count = 2700
+	Image count = 1
 	RGB = false (1) 
-	Interleaved = false
-	Indexed = false (true color)
-	Width = 1024
-	Height = 1024
-	SizeZ = 90
-	SizeT = 15
-	SizeC = 2
-	Thumbnail size = 128 x 128
+	Interleaved = true
+	Indexed = false (false color)
+	Width = 1388
+	Height = 1040
+	SizeZ = 1
+	SizeT = 1
+	SizeC = 1
+	Thumbnail size = 128 x 95
 	Endianness = intel (little)
-	Dimension order = XYCZT (uncertain)
-	Pixel type = uint8
-	Valid bits per pixel = 8
-	Metadata complete = false
+	Dimension order = XYCZT (certain)
+	Pixel type = uint16
+	Valid bits per pixel = 16
+	Metadata complete = true
 	Thumbnail series = false
 	-----
 	Plane #0 <=> Z 0, C 0, T 0
-	Plane #1348 <=> Z 44, C 0, T 7
-	Plane #1349 <=> Z 44, C 1, T 7
-	Plane #1350 <=> Z 45, C 0, T 7
-	Plane #1351 <=> Z 45, C 1, T 7
-	Plane #1352 <=> Z 46, C 0, T 7
-	Plane #2699 <=> Z 89, C 1, T 14
 
 
 Reading global metadata
-BeamSplitter #1 Acquire: true
-DataChannel #1 Acquire: true
-DataChannel #2 Acquire: true
-DetectionChannel #1 Acquire: true
-DetectionChannel #2 Acquire: true
-IlluminationChannel #1 Acquire: true
-IlluminationChannel #2 Acquire: true
-Laser #1 Acquire: true
-Marker #1 Acquire: true
-Recording #1 Acquire: true
-Timer #1 Acquire: true
-Track #1 Acquire: true
-Track #2 Acquire: false
-X position for position #1: 0.0
-Y position for position #1: 0.0
-Z position for position #1: 0.0
+Acquisition Bit Depth: 12
+Acquisition Date: 4675742144200677165
+Amplification Index: 0
+ApoTome Auto Shutter Used: 0
+ApoTome Averaging Count: 1
+ApoTome Filter Name: Weak
+ApoTome Full Phase Shift: 1045
+ApoTome Grating Period: 11.737984496124032
+ApoTome Grid Name: AL
+ApoTome Grid Position: 116
+ApoTome Processing Mode: 1
+Apotome Filter Strength: 14.0
+ApotomeCamFilterHarmonics: 36
+ApotomeCamNormalize: 0
+BlackValue: 0.0
+Camera: ApotomeCam
+Camera Adapter Magnification: 1.0
+Camera Binning: 1
+Camera Bit Depth: 12
+Camera Frame Height: 1040
+Camera Frame Width: 1388
+Camera Framestart Left: 0
+Camera Framestart Top: 0
+Camera Shading Correction: 0
+CameraFrameImageOrientation: 4
+CameraFramePixelDistance: 6.45
+CameraFrameScalingFactor: 1.0
+CameraLiveScalingFactor: 0.3333333333333333
+Condenser Contrast: 1
+Condenser N.A.: 0.15966207759699624
+ContrastManagerMode: 3
+DeviceScalingName: AxioCamMR3
+Document Type: Image
+Exposure Time [ms]: 32000.0
+Filename: SNAP-154443-0011.zvi
+Focus Position: -79.96000000000001
+FocusDepth: 21.484375
+GammaValue: 1.0
+GammaValue 0: 1.0
+Image Channel Index 0: 0
+Image Index T: 0
+Image Index Z 0: 0
+Image IndexS: 0
+Image Memory Usage (RAM): 2887104
+Image acquisition Index: 0
+ImageHeight: 1040
+ImageRelativeTime1 0: 0
+ImageRelativeTime2 0: 0
+ImageRelativeTime3 0: 0
+ImageRelativeTime4 0: 0
+ImageTile Index: 0
+ImageWidth: 1388
+Lightmanager Mode: 2
+Microscope Name: Axio Observer.Z1
+Microscope Port: 34
+MicroscopeIllumination: -1
+MicroscopeMagnification: 5.0
+MicroscopeType: 64
+Number Raw Count: 1
+NumberOfRawImages: 1
+ObjectType: 1
+Objective Contrast Method: 1
+Objective ID: Objective.420630-9900-000
+Objective Immersion Type: 1
+Objective Magnification: 5.0
+Objective N.A.: 0.16
+Objective Name: Plan-Apochromat 5x/0.16
+Objective Turret Position: 1
+Objective Working Distance: 12200.0
+Ocular Total Magnification: 50.0
+Optovar: 1.0
+Original Stage Position X: 410.5
+Original Stage Position Y: 1352.0
+PixelType: 4
+Reflected Light Shutter: 2
+Reflector: 47 HE Cyan Fluorescent Prot
+Reflector ID: Reflector.489047-9901-000
+Reflector Position: 4
+ReflectorMagnification: 1.0
+RelFocusPosition1 0: 0.0
+RelFocusPosition2 0: 0.0
+Scale Factor for X: 1.29
+Scale Factor for Y: 1.29
+Scale Factor for Z: 1.0
+Scale Height: 1341.6000000000001
+Scale Unit for X: 76
+Scale Unit for Y: 76
+Scale Unit for Z: 0
+Scale Width: 1790.52
+Stage Position X: 410.5
+Stage Position X 0: 410.5
+Stage Position Y: 1352.0
+Stage Position Y 0: 1352.0
+Transmitted Light Shutter: 1
+TransmittedLightHalogenLampMode: 4
+TransmittedLightHalogenLampVoltage: 2.124853228962818
+WhiteValue: 0.03571428571428571
+X position for position #1: 410.5
+Y position for position #1: 1352.0
+tag_ID_2071 0: 0.0
 
 Reading metadata
-BeamSplitter #1 Filter: Rear
-BeamSplitter #1 Filter Set: FW1
-BeamSplitter #1 Name: FW1
-ChannelName0: Ch1
-DataChannel #1 Acquire: 1
-DataChannel #1 Bits Per Sample: 8
-DataChannel #1 Color: 65280
-DataChannel #1 Name: Ch1
-DataChannel #1 Ratio Const. 1: 0.0
-DataChannel #1 Ratio Const. 2: 0.0
-DataChannel #1 Ratio Const. 3: 1.0
-DataChannel #1 Ratio Const. 4: 0.0
-DataChannel #1 Ratio Const. 5: 0.0
-DataChannel #1 Ratio Const. 6: 0.0
-DataChannel #1 Ratio Track 1: 0
-DataChannel #1 Ratio Track 2: 0
-DataChannel #1 Ratio Type: 0
-DataChannel #1 Sample Type: 1
-DataChannel #2 Acquire: 1
-DataChannel #2 Bits Per Sample: 8
-DataChannel #2 Color: 255
-DataChannel #2 Name: Ch2
-DataChannel #2 Ratio Const. 1: 0.0
-DataChannel #2 Ratio Const. 2: 0.0
-DataChannel #2 Ratio Const. 3: 1.0
-DataChannel #2 Ratio Const. 4: 0.0
-DataChannel #2 Ratio Const. 5: 0.0
-DataChannel #2 Ratio Const. 6: 0.0
-DataChannel #2 Ratio Track 1: 0
-DataChannel #2 Ratio Track 2: 0
-DataChannel #2 Ratio Type: 0
-DataChannel #2 Sample Type: 1
-DataType: varying data types
-DataType2: original scan data
-DetectionChannel #1 Acquire: 1
-DetectionChannel #1 Amplifier Gain: 1.128947
-DetectionChannel #1 Amplifier Gain B/C 1: 0.0
-DetectionChannel #1 Amplifier Gain B/C 2: 0.0
-DetectionChannel #1 Amplifier Name: Amplifier1
-DetectionChannel #1 Amplifier Offset: 0.0
-DetectionChannel #1 Amplifier Offset B/C 1: 0.0
-DetectionChannel #1 Amplifier Offset B/C 2: 0.0
-DetectionChannel #1 Detection Channel Name: Ch1
-DetectionChannel #1 Detector Gain: 650.0
-DetectionChannel #1 Detector Gain B/C 1: 0.0
-DetectionChannel #1 Detector Gain B/C 2: 0.0
-DetectionChannel #1 Detector Name: Pmt1
-DetectionChannel #1 Dye Name: EGFP
-DetectionChannel #1 Filter Set Name: EF1
-DetectionChannel #1 Integrator Name: Integrator1
-DetectionChannel #1 Pinhole Diameter: 41.11328
-DetectionChannel #1 Pinhole Name: PH1
-DetectionChannel #1 SPI Wavelength End: 558.32
-DetectionChannel #1 SPI Wavelength Start: 489.95000000000005
-DetectionChannel #1 Spectral Scan Channels: 32
-DetectionChannel #2 Acquire: 1
-DetectionChannel #2 Amplifier Gain: 1.1
-DetectionChannel #2 Amplifier Gain B/C 1: 0.0
-DetectionChannel #2 Amplifier Gain B/C 2: 0.0
-DetectionChannel #2 Amplifier Name: Amplifier2
-DetectionChannel #2 Amplifier Offset: -19.999997952
-DetectionChannel #2 Amplifier Offset B/C 1: 0.0
-DetectionChannel #2 Amplifier Offset B/C 2: 0.0
-DetectionChannel #2 Detection Channel Name: Ch2
-DetectionChannel #2 Detector Gain: 700.0
-DetectionChannel #2 Detector Gain B/C 1: 0.0
-DetectionChannel #2 Detector Gain B/C 2: 0.0
-DetectionChannel #2 Detector Name: Pmt2
-DetectionChannel #2 Dye Name: mCherry
-DetectionChannel #2 Filter Set Name: EF2
-DetectionChannel #2 Integrator Name: Integrator2
-DetectionChannel #2 Pinhole Diameter: 41.11328
-DetectionChannel #2 Pinhole Name: PH2
-DetectionChannel #2 SPI Wavelength End: 698.23
-DetectionChannel #2 SPI Wavelength Start: 566.76
-DetectionChannel #2 Spectral Scan Channels: 32
-DimensionChannels: 2
-DimensionM: 1
-DimensionP: 1
-DimensionX: 1024
-DimensionY: 1024
-DimensionZ: 90
-DisplayAspectTime: 1.0
-DisplayAspectX: 1.0
-DisplayAspectY: 1.0
-DisplayAspectZ: 1.0
-IlluminationChannel #1 Acquire: 1
-IlluminationChannel #1 Name: 561
-IlluminationChannel #1 Power: 3.0
-IlluminationChannel #1 Power B/C 1: 0.0
-IlluminationChannel #1 Power B/C 2: 0.0
-IlluminationChannel #1 Wavelength: 561.0
-IlluminationChannel #2 Acquire: 1
-IlluminationChannel #2 Name: 488
-IlluminationChannel #2 Power: 2.0
-IlluminationChannel #2 Power B/C 1: 0.0
-IlluminationChannel #2 Power B/C 2: 0.0
-IlluminationChannel #2 Wavelength: 488.00000000000006
-Laser #1 Acquire: 1
-Laser #1 Name: DPSS 561-10
-Laser #1 Power: 15.0
-MagicNumber: 67127628
-Marker #1 Name: Marker7
-OriginX: 0.0
-OriginY: 0.0
-OriginZ: 0.0
-Recording #1 Camera Binning: 1
-Recording #1 Camera Frame Height: 1030
-Recording #1 Camera Frame Width: 1300
-Recording #1 Camera Offset X: 0.0
-Recording #1 Camera Offset Y: 0.0
-Recording #1 Camera Supersampling: 0
-Recording #1 Images Height: 1024
-Recording #1 Images Width: 1024
-Recording #1 Interpolation Y: 1
-Recording #1 Line Spacing: 0.2075664593629475
-Recording #1 Lines Per Plane: 1024
-Recording #1 Linescan XY Size: 512
-Recording #1 Name: 14-16hpf ear 02_t1_15
-Recording #1 Number of Channels: 2
-Recording #1 Number of Planes: 90
-Recording #1 Number of Stacks: 250
-Recording #1 Objective: C-Apochromat 40x/1.20 W Korr M27
-Recording #1 Original Scan Data: 1
-Recording #1 Plane Spacing: 1.0
-Recording #1 Planes Per Volume: 90
-Recording #1 Position B/C Contrast 1: 0.0
-Recording #1 Position B/C Contrast 2: 0.0
-Recording #1 Precession: 0.0
-Recording #1 Rotation: 0.0
-Recording #1 Sample 0Time: 39742.039444444425
-Recording #1 Sample 0X: 0.0
-Recording #1 Sample 0Y: 0.0
-Recording #1 Sample 0Z: 0.0
-Recording #1 Sample Spacing: 0.2075664593629475
-Recording #1 Samples Per Line: 1024
-Recording #1 Scan Direction: 1
-Recording #1 Scan Mode: Stack
-Recording #1 Special Scan Mode: FocusStep
-Recording #1 Start Scan Event: 0
-Recording #1 Start Scan Time: 0.0
-Recording #1 Stop Scan Event: 0
-Recording #1 Stop Scan Time: 0.0
-Recording #1 Time Series: 1
-Recording #1 Use B/C Correction: 0
-Recording #1 Use ROIs: 1
-Recording #1 Use Reduced Memory ROIs: 0
-Recording #1 User: NDO1
-Recording #1 Zoom X: 1.0
-Recording #1 Zoom Y: 1.0
-Recording #1 Zoom Z: 1.0
-ScanType: time series x-y-z
-SpectralScan: no spectral scan
-StructureSize: 464
-ThumbnailX: 128
-ThumbnailY: 128
-TimeInterval: 120.02102362703963
-TimeStamp0: 452.3342235151515
-TimeStamp1: 572.353792969697
-TimeStamp10: 1652.5403151515152
-TimeStamp11: 1772.5655563636365
-TimeStamp12: 1892.5907985454546
-TimeStamp13: 2012.6075306666667
-TimeStamp14: 2132.627100121212
-TimeStamp2: 692.3752533333333
-TimeStamp3: 812.40144
-TimeStamp4: 932.4181730909091
-TimeStamp5: 1052.438687030303
-TimeStamp6: 1172.4620383030303
-TimeStamp7: 1292.4816077575758
-TimeStamp8: 1412.5040126060605
-TimeStamp9: 1532.523582060606
-Timer #1 Interval: 0.0
-Timer #1 Name: Timer6
-ToolbarFlags: 0
-Track #1 Acquire: 1
-Track #1 Bleach After Scan Number: 0
-Track #1 Bleach Count: 0
-Track #1 Bleach Scan Number: 0
-Track #1 Condensor Aperture: 0.5500764
-Track #1 Condensor Revolver: BF
-Track #1 ID Condensor Aperture: KAB1
-Track #1 ID Condensor Revolver: FW2
-Track #1 Is Bleach Track: 0
-Track #1 Is Ratio Track: 0
-Track #1 Multiplex Order: 1
-Track #1 Multiplex Type: 1
-Track #1 Name: Track 1
-Track #1 Pixel Time: 0.7878788
-Track #1 SPI Center Wavelength: 572.3201080894942
-Track #1 Sampling Method: 1
-Track #1 Sampling Mode: 1
-Track #1 Sampling Number: 1
-Track #2 Acquire: 0
-Track #2 Bleach After Scan Number: 0
-Track #2 Bleach Count: 1
-Track #2 Bleach Position Z: -0.0
-Track #2 Bleach Scan Number: 1
-Track #2 Collimator 1 Position: 1
-Track #2 Collimator 2 Position: 1
-Track #2 Enable Spot Bleach Pos: 0
-Track #2 Is Bleach Track: 1
-Track #2 Is Ratio Track: 0
-Track #2 Multiplex Order: 2
-Track #2 Multiplex Type: 1
-Track #2 Name: Bleach1
-Track #2 Pixel Time: 0.7878788
-Track #2 Repeat Bleach: -1
-Track #2 Sampling Method: 1
-Track #2 Sampling Mode: 1
-Track #2 Sampling Number: 1
-Track #2 Spot Bleach Position X: 0.0
-Track #2 Spot Bleach Position Y: 0.0
-VoxelSizeX: 0.2075664593629475
-VoxelSizeY: 0.2075664593629475
-VoxelSizeZ: 1.0

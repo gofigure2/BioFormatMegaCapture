@@ -45,7 +45,7 @@ then
 	LSM[12]="DataChannel #3 Color"
 	LSM[13]="Valid bits per pixel"  
 	
-
+		
 	# Delete parameters that get confused with DimensionX and DimensionY
 
 	sed -e 's/DimensionXT/DXT/g' -e 's/DimensionYT/DYT/g' -e 's/DimensionZT/DZT/g' MegaCaptureFormat.meg > Meg.meg
@@ -54,41 +54,97 @@ then
 	sed -e 's/\tSizeT =/SizeT:/g' -e 's/\tSizeZ =/SizeZ:/g' -e 's/\tSizeC =/SizeC:/g' -e 's/\tValid bits per pixel =/Valid bits per pixel:/g' $INPUTFILE > input.tmp
 
 
+        mv Meg.meg MegaCaptureFormat.meg
+
+        for i in {1..13}
+        do
+
+                # Replaces elements in vector ending in colon with elements in vector MEG in tmp file input.tmp which$
+
+                sed "s/${LSM[${i}]}:/${MEG[${i}]}/" input.tmp > ext.tmp
+
+                mv ext.tmp input.tmp
+
+        done
+
+        cp input.tmp aftercolon.tmp
+
+
  
 
-#elif [ "$EXTENSION" == "zvi" ]
-#then
+elif [ "$EXTENSION" == "zvi" ]
+then
 
-    	EXT[1]="TimeInterval"
-        #EXT[1]="Recording #1 Objective"
-        EXT[2]="VoxelSizeX"
-        EXT[3]="VoxelSizeY"
-        EXT[4]="VoxelSizeZ"
-        EXT[5]="DimensionX"
-        EXT[6]="DimensionY"
-        EXT[7]="SizeT"
-        EXT[8]="SizeZ"
-        EXT[9]="SizeC"
-        EXT[10]="DataChannel #1 Color"
-        EXT[11]="DataChannel #2 Color"
-        EXT[12]="DataChannel #3 Color"
-        EXT[13]="Valid bits per pixel"
-
-
-
-	mv Meg.meg MegaCaptureFormat.meg
-		
+	#BlackValue: 0.0
+	#WhiteValue: 0.03571428571428571
+	#Exposure Time [ms]: 32000.0
 	
-	for i in {1..13}
-	do
+    	ZVI[1]="Exposure Time"
+        #ZVI[1]="Recording #1 Objective"
+        ZVI[2]="Scale Factor for X"
+        ZVI[3]="Scale Factor for Y"
+        ZVI[4]="Scale Factor for Z"
+        ZVI[5]="Width"
+        ZVI[6]="Height"
+        ZVI[7]="SizeT"
+        ZVI[8]="SizeZ"
+        ZVI[9]="SizeC"
+        ZVI[10]="WhiteValue"
+        ZVI[11]="BlackValue"
+        ZVI[12]="DataChannel #3 Color"
+        ZVI[13]="Valid bits per pixel"
 
-		# Replaces elements in vector ending in colon with elements in vector MEG in tmp file input.tmp which is a tmp metadata format 	
+	sed -e 's/DimensionXT/DXT/g' -e 's/DimensionYT/DYT/g' -e 's/DimensionZT/DZT/g' MegaCaptureFormat.meg > Meg.meg
+	sed -e 's/\tSizeT =/SizeT:/g' -e 's/\tSizeZ =/SizeZ:/g' -e 's/\tSizeC =/SizeC:/g' -e 's/\tValid bits per pixel =/Valid bits per pixel:/g' $INPUTFILE > input.tmp
+	sed -e 's/\tWidth =/Width:/g' -e 's/\tHeight =/Height:/g' input.tmp > in.tmp
+	sed 's/Exposure Time \[ms\]/Exposure Time/g' in.tmp > input.tmp
+	sed "s/(.*)$//g" input.tmp > in.tmp
+	
+	mv in.tmp input.tmp
 
-		sed "s/${LSM[${i}]}:/${MEG[${i}]}/" input.tmp > ext.tmp
+	# calculates TimeInterval by multiplying exposure time [ms] by number of time points and dividing by 1000
+	EXPOSURETIME_MS=$(grep "${ZVI[1]}" input.tmp  | cut -c 15-)
+	EXP=$(echo ${EXPOSURETIME_MS%.*})
+	EXPOSURETIME_S=$(($EXP/1000))
 
-		mv ext.tmp input.tmp
+	DIMTM=$(grep "${ZVI[7]}" input.tmp  | cut -c 8-)
+	TIMEINTERVAL=$(($EXPOSURETIME_S*$DIMTM))
 
-	done
+	sed "s/^Exposure Time.*$/Exposure Time: $TIMEINTERVAL/g" input.tmp > in.tmp
+
+	mv in.tmp input.tmp
+
+	
+	cp input.tmp afterexposuretime.tmp
+
+        mv Meg.meg MegaCaptureFormat.meg
+
+        for i in {1..13}
+        do
+
+                # Replaces elements in vector ending in colon with elements in vector MEG in tmp file input.tmp which$
+
+                sed "s/${ZVI[${i}]}:/${MEG[${i}]}/" input.tmp > ext.tmp
+
+                mv ext.tmp input.tmp
+
+        done
+
+	cp input.tmp aftercolon.tmp
+	
+
+
+
+
+
+#	echo ${ZVI[@]}
+#	EXT=("${ZVT[@]}")
+#	echo ${EXT[@]}
+		
+else
+    	echo "This is an unsupported file extension!!!"
+fi	
+	
 
 	for j in {1..13}
 	do
@@ -100,7 +156,8 @@ then
 		
 	done
 	
-	
+	cp MegaCaptureFormat.meg switchfeilds.meg	
+
 	sed -e 's/DXT/DimensionXT/g' -e 's/DYT/DimensionYT/g' -e 's/DZT/DimensionZT/g' MegaCaptureFormat.meg > tmp.meg
 	mv tmp.meg MegaCaptureFormat.meg
 
@@ -121,9 +178,6 @@ then
 	ZS=$((${DIM[8]}-1))
 	CH=$((${DIM[9]}-1))
 
-else
-	echo "This is an unsupported file extension!!!"
-fi
 
 	#first is TM
 	for t in $(eval echo {0..${TM}})
