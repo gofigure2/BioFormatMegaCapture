@@ -1,10 +1,13 @@
 Written by Evan Schwab
+Megason Lab, Harvard Medical School
 05/01/11
 
-metadataConversion.sh converts metadata from an input image file to a MegaCapture (.meg) metadata format.
+#./ImageConversion.sh ../Data/SNAP-154443-0011.zvi
 
-The command has three (3) required inputs in specific order:
+#ImageConversion.sh has one input parameter: the path-to-file to be converted to megacapture format. 
+#It must include the the appropriate .lsm or .zvi extension.
+#Creates folder	with same name as input file and same path with the .meg metadata 
+#and the corresponding .png image files.
 
-1) metadata file (e.g. log.txt)
-2) name of the .meg output file you want without the extension (e.g. datetest)
-3) the extension of the input image data that defines the format of the input metadata file (e.g. zvi)
+#First run ./INSTALL to download the Bio-Formats command line tools and loci_tools.jar file which
+#will place these tools in a specified directory called bioformatsTools/ within your working directory.

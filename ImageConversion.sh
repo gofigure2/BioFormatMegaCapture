@@ -1,7 +1,13 @@
 #!/bin/bash
 
 
-#
+#./ImageConversion.sh ../Data/SNAP-154443-0011.zvi
+
+#ImageConversion.sh has one input parameter: the path-to-file to be converted to megacapture format.  
+#It must include the the appropriate .lsm or .zvi extension.
+#Creates folder with same name as input file and same path with the .meg metadata and the corresponding .png image files.
+
+
 
 
 LEN=$(echo ${#1})
@@ -11,6 +17,7 @@ FILENAME=$(echo ${1%.*}) #filename path
 echo $EXT
 echo $FILENAME
 
+rm -rf $FILENAME
 
 ./bioformatsTools/bfconvert $1 image-PL00-CO00-RO00-ZT00-YT00-XT00-TM%t-ch%c-zs%z.png
 
@@ -21,6 +28,13 @@ echo $FILENAME
 function metadataConversion {
 
 #This function takes input metadata and converts it to MegaCapture metadata formatted file.
+#metadataConversion.sh converts metadata from an input image file to a MegaCapture (.meg) metadata format.
+
+#The command has three (3) required inputs in specific order:
+
+#1) metadata file (e.g. log.txt)
+#2) name of the .meg output file you want without the extension (e.g. datetest)
+#3) the extension of the input image data that defines the format of the input metadata file (e.g. zvi)
 
 cp MegaCaptureFormatFile.meg MegaCaptureFormat.meg
 
@@ -246,7 +260,7 @@ Pinhole 44.216\n\
 	stat -c "%y" $1 | cut -c 1-19 > DATETIME.txt
 	sed "s/^DateTime.*$/DateTime $(cat DATETIME.txt)/g" MegaCaptureFormat.meg > $2.meg
 
-	rm loopedMegaCaptureFormat.meg input.tmp DATETIME.txt MegaCaptureFormat.meg   
+	rm loopedMegaCaptureFormat.meg input.tmp DATETIME.txt MegaCaptureFormat.meg aftercolon.tmp afterexposuretime.tmp switchfeilds.meg   
 
 
 }
@@ -256,7 +270,7 @@ Pinhole 44.216\n\
 
 
 
-metadataConversion.sh $FILENAME_metadata.txt $FILENAME $EXT
+metadataConversion $FILENAME_metadata.txt $FILENAME $EXT
 
 
 
