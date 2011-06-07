@@ -1,13 +1,25 @@
-Written by Evan Schwab
-Megason Lab, Harvard Medical School
-05/01/11
+Date: 05/01/11
+Author: Evan Schwab (Megason Lab, Harvard Medical School)
 
-#./ImageConversion.sh ../Data/SNAP-154443-0011.zvi
 
-#ImageConversion.sh has one input parameter: the path-to-file to be converted to megacapture format. 
-#It must include the the appropriate .lsm or .zvi extension.
-#Creates folder	with same name as input file and same path with the .meg metadata 
-#and the corresponding .png image files.
 
-#First run ./INSTALL to download the Bio-Formats command line tools and loci_tools.jar file which
-#will place these tools in a specified directory called bioformatsTools/ within your working directory.
+Installation
+------------
+
+First run ./INSTALL to download the Bio-Formats command line tools and
+loci_tools.jar file which will place these tools in a specified directory
+called bioformatsTools/ within your working directory.
+
+
+Usage
+-----
+
+ImageConversion.sh has one input parameter: the path-to-file to be converted
+to megacapture format.
+
+It must include the the appropriate .lsm or .zvi extension.
+Creates folder	with same name as input file and same path with the .meg
+metadata and the corresponding .png image files.
+
+./ImageConversion.sh ../Data/SNAP-154443-0011.zvi
+
