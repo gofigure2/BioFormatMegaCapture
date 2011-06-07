@@ -17,11 +17,11 @@ FILENAME=$(echo ${1%.*}) #filename path
 echo $EXT
 echo $FILENAME
 
-# just to make sure it: TO BE COMPLETED!!
+# removes previous directory with filename
 rm -rf $FILENAME
 
 # generates all png files from the input file
-./bioformatsTools/bfconvert $1 image-PL00-CO00-RO00-ZT00-YT00-XT00-TM%t-ch%c-zs%z.png
+./bioformatsTools/bfconvert $1 Series_%s-image-PL00-CO00-RO00-ZT00-YT00-XT00-TM%t-ch%c-zs%z.png
 
 # writes the metadata information into txt file
 ./bioformatsTools/showinf -nopix $1 > $FILENAME_metadata.txt
@@ -64,7 +64,9 @@ EXTENSION=$3
 
 if [ "$EXTENSION" == "lsm" ]
 then
-
+	NUM_SERIES=$(grep "Series count = " $INPUTFILE  | cut -c 15-)
+	echo "this is funny"
+	echo $NUM_SERIES 
 
     	LSM[1]="TimeInterval"
         #LSM[1]="Recording #1 Objective"
@@ -151,7 +153,7 @@ then
 	mv in.tmp input.tmp
 
 	
-	cp input.tmp afterexposuretime.tmp
+	#cp input.tmp afterexposuretime.tmp
 
         mv Meg.meg MegaCaptureFormat.meg
 
@@ -218,23 +220,31 @@ fi
 	CH=$((${DIM[9]}-1))
 
 
-	#first is TM
-	for t in $(eval echo {0..${TM}})
+
+	for s in $(eval echo {0..$((${NUM_SERIES}-1))})
 	do
+		echo $s
+		mkdir $2/Series_$s
 
-		#second is CH
-		for c in $(eval echo {0..${CH}})
+		#first is TM
+		for t in $(eval echo {0..${TM}})
 		do
-		
-			#third is ZS
-			for z in $(eval echo {0..${ZS}})
+
+			#second is CH
+			for c in $(eval echo {0..${CH}})
 			do
+		
+				#third is ZS
+				for z in $(eval echo {0..${ZS}})
+				do
+
+				
 
 
-				# prints these image lines with looped number for TM, ch, zs in 0001, 01, 0001 number format
-				echo -e "\
+					# prints these image lines with looped number for TM, ch, zs in 0001, 01, 0001 number format
+					echo -e "\
 <Image>\n\
-Filename image-PL00-CO00-RO00-ZT00-YT00-XT00-TM$(printf %4.4u $t)-ch$(printf %2.2u $c)-zs$(printf %4.4u $z).png\n\
+Filename Series_$s-image-PL00-CO00-RO00-ZT00-YT00-XT00-TM$(printf %4.4u $t)-ch$(printf %2.2u $c)-zs$(printf %4.4u $z).png\n\
 DateTime 2009-11-05 09:44:11\n\
 StageX 1000\n\
 StageY -1000\n\
@@ -242,12 +252,12 @@ Pinhole 44.216\n\
 </Image>" > loopedMegaCaptureFormat.meg
 				
 
-				cat MegaCaptureFormat.meg loopedMegaCaptureFormat.meg > new.meg
+					cat MegaCaptureFormat.meg loopedMegaCaptureFormat.meg > new.meg
 
-				mv new.meg MegaCaptureFormat.meg
-				
-				mv image-PL00-CO00-RO00-ZT00-YT00-XT00-TM$t-ch$c-zs$z.png $2-PL00-CO00-RO00-ZT00-YT00-XT00-TM$(printf %4.4u $t)-ch$(printf %2.2u $c)-zs$(printf %4.4u $z).png
-
+					mv new.meg MegaCaptureFormat.meg
+					
+					mv Series_$s-image-PL00-CO00-RO00-ZT00-YT00-XT00-TM$t-ch$c-zs$z.png $2/Series_$s/Series_$s-PL00-CO00-RO00-ZT00-YT00-XT00-TM$(printf %4.4u $t)-ch$(printf %2.2u $c)-zs$(printf %4.4u $z).png
+				done
 			done
                     
 		done
@@ -265,21 +275,27 @@ Pinhole 44.216\n\
 	stat -c "%y" $1 | cut -c 1-19 > DATETIME.txt
 	sed "s/^DateTime.*$/DateTime $(cat DATETIME.txt)/g" MegaCaptureFormat.meg > $2.meg
 
-	rm loopedMegaCaptureFormat.meg input.tmp DATETIME.txt MegaCaptureFormat.meg aftercolon.tmp afterexposuretime.tmp switchfeilds.meg   
+	rm loopedMegaCaptureFormat.meg input.tmp DATETIME.txt MegaCaptureFormat.meg aftercolon.tmp switchfeilds.meg .txt #afterexposuretime.tmp switchfeilds.meg   
+
+
+	for s in $(eval echo {0..$((${NUM_SERIES}-1))})
+	do
+		
+		mv $2.meg $2/Series_$s	
+		
+		 
+	done
 
 
 }
 
 
-
-
-
+mkdir $FILENAME
 
 metadataConversion $FILENAME_metadata.txt $FILENAME $EXT
 
 
 
-mkdir $FILENAME
-mv $FILENAME.meg $FILENAME*.png $FILENAME
+#mv $FILENAME.meg $FILENAME*.png $FILENAME/Series_$s
 
 
