@@ -9,7 +9,7 @@
 
 
 
-
+# extract extension in the filename and save it in $EXT
 LEN=$(echo ${#1})
 LAST=$(($LEN-3))
 EXT=$(echo $1 | cut -c $(($LEN-2))-) 
@@ -17,11 +17,13 @@ FILENAME=$(echo ${1%.*}) #filename path
 echo $EXT
 echo $FILENAME
 
+# just to make sure it: TO BE COMPLETED!!
 rm -rf $FILENAME
 
+# generates all png files from the input file
 ./bioformatsTools/bfconvert $1 image-PL00-CO00-RO00-ZT00-YT00-XT00-TM%t-ch%c-zs%z.png
 
- 
+# writes the metadata information into txt file
 ./bioformatsTools/showinf -nopix $1 > $FILENAME_metadata.txt
 
 
