@@ -194,6 +194,9 @@ fi
 	
 	cp MegaCaptureFormat.meg switchfeilds.meg	
 
+	# NOTE: both .lsm and .zvi have these fields in common, so they are in this loop.  These are changed from DimensionXT to DXT and back to DimensionXT so they are
+	# not confused with the other fields that begin with Dimension
+	
 	sed -e 's/DXT/DimensionXT/g' -e 's/DYT/DimensionYT/g' -e 's/DZT/DimensionZT/g' MegaCaptureFormat.meg > tmp.meg
 	mv tmp.meg MegaCaptureFormat.meg
 
