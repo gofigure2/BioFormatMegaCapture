@@ -265,7 +265,7 @@ Pinhole 44.216\n\
 	stat -c "%y" $1 | cut -c 1-19 > DATETIME.txt
 	sed "s/^DateTime.*$/DateTime $(cat DATETIME.txt)/g" MegaCaptureFormat.meg > $2.meg
 
-	rm loopedMegaCaptureFormat.meg input.tmp DATETIME.txt MegaCaptureFormat.meg aftercolon.tmp afterexposuretime.tmp switchfeilds.meg   
+	rm loopedMegaCaptureFormat.meg input.tmp DATETIME.txt MegaCaptureFormat.meg aftercolon.tmp switchfeilds.meg   
 
 
 }
