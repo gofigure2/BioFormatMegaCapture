@@ -14,8 +14,8 @@ LEN=$(echo ${#1})
 LAST=$(($LEN-3))
 EXT=$(echo $1 | cut -c $(($LEN-2))-) 
 FILENAME=$(echo ${1%.*}) #filename path
-echo $EXT
-echo $FILENAME
+#echo $EXT
+#echo $FILENAME
 
 # just to make sure it: TO BE COMPLETED!!
 rm -rf $FILENAME

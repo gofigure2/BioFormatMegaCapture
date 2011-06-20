@@ -8,11 +8,11 @@
 
 mkdir bioformatsTools
 
-wget "http://www.loci.wisc.edu/files/software/loci_tools.jar"
+curl --silent --output loci_tools.jar "http://www.loci.wisc.edu/files/software/loci_tools.jar"
 
 mv loci_tools.jar bioformatsTools
 
-wget "http://www.loci.wisc.edu/files/software/bftools.zip"
+curl --silent --output bftools.zip "http://www.loci.wisc.edu/files/software/bftools.zip"
 
 unzip bftools.zip -d bioformatsTools
 
