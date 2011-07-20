@@ -248,6 +248,9 @@ Pinhole 44.216\n\
 				
 				mv image-PL00-CO00-RO00-ZT00-YT00-XT00-TM$t-ch$c-zs$z.png $2-PL00-CO00-RO00-ZT00-YT00-XT00-TM$(printf %4.4u $t)-ch$(printf %2.2u $c)-zs$(printf %4.4u $z).png
 
+                                #convert to grayscale png
+                                convert $2-PL00-CO00-RO00-ZT00-YT00-XT00-TM$(printf %4.4u $t)-ch$(printf %2.2u $c)-zs$(printf %4.4u $z).png -colorspace Gray $2-PL00-CO00-RO00-ZT00-YT00-XT00-TM$(printf %4.4u $t)-ch$(printf %2.2u $c)-zs$(printf %4.4u $z).png
+
 			done
                     
 		done
