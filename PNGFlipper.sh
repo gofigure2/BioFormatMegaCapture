@@ -1,19 +1,23 @@
 #!/bin/bash
-Path="/home/krm15/data/Nik/2011-05-20_EarData"
+#Set Path1 and Path2 variables correctly
+Path1="/home/krm15/data/Kishore/KishoreFengzhu/110911_forKishoreSomiteTimelapseGC/110911_session_2011_11_09__23_52_45/megacapture"
+Path2="/home/krm15/data/Kishore/KishoreFengzhu/110911_forKishoreSomiteTimelapseGC/110911_session_2011_11_09__23_52_45/newmegacapture"
 
-count=0;
-i=1;
 
-for b in {28,17,17,14,31,52,79,102,240,72}
+for ch in {0,1}
 do
-  for (( a=0; a<$b; a++ ))
+  for t in {0,1}
   do
-    cmd="cp ${Path}/${i}/membrane/$a.mha ${Path}/membrane/${count}.mha";
+    Files="${Path1}/*-TM0${t}*-ch0${ch}*.png"
+    for a in ${Files}
+    do
+      filename=${a##*/}
 
-    echo $cmd
-    eval $cmd
-    count=$((count+1));
-done
-  i=$((i+1));
+      cmd="convert -flip ${Path1}/${filename} ${Path2}/${filename}";
+
+      echo $cmd
+      eval $cmd
+    done
+  done
 done
 
