@@ -1,13 +1,9 @@
 #!/bin/bash
 
-
-#./ImageConversion.sh ../Data/SNAP-154443-0011.zvi
-
 #ImageConversion.sh has one input parameter: the path-to-file to be converted to megacapture format.  
 #It must include the the appropriate .lsm or .zvi extension.
 #Creates folder with same name as input file and same path with the .meg metadata and the corresponding .png image files.
-
-
+#./ImageConversion.sh ../Data/SNAP-154443-0011.zvi
 
 # extract extension in the filename and save it in $EXT
 a=$1
@@ -28,11 +24,29 @@ echo ext=${xext};
 rm -rf ${xpath}/${xpref}
 mkdir ${xpath}/${xpref}
 
-# generates all png files from the input file
-./bioformatsTools/bfconvert $1 ${xpath}/${xpref}/${xpref}-PL00-CO00-RO00-ZT00-YT00-XT00-TM%t-ch%c-zs%z.png
-
 # writes the metadata information into txt file
 ./bioformatsTools/showinf -nopix $1 > ${xpath}/${xpref}_metadata.txt
+
+NumberOfPlanes=$(grep "Image count = " ${xpath}/${xpref}_metadata.txt  | cut -c 16-)
+#echo ${NumberOfPlanes}
+Increment=$((${NumberOfPlanes}/${NumberOfThreads}))
+#echo ${Increment}
+
+# generates all png files from the input file
+for iter in $(eval echo {1..${NumberOfThreads}})
+do
+  start=$((${Increment}*(${iter}-1)))
+  stop=$(($start+${Increment}-1))
+  if [ "${iter}" -eq "${NumberOfThreads}" ]
+  then
+    stop=$NumberOfPlanes
+  fi
+  ./bioformatsTools/bfconvert -range ${start} ${stop} $1 ${xpath}/${xpref}/${xpref}-PL00-CO00-RO00-ZT00-YT00-XT00-TM%t-ch%c-zs%z.png &
+done
+wait
+
+# generates all png files from the input file
+#./bioformatsTools/bfconvert $1 ${xpath}/${xpref}/${xpref}-PL00-CO00-RO00-ZT00-YT00-XT00-TM%t-ch%c-zs%z.png
 
 function ConvertToGrayscale {
 
