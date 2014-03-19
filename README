@@ -1,5 +1,6 @@
-Date: 05/01/11
-Author: Evan Schwab (Megason Lab, Harvard Medical School)
+Date: 03/19/14
+Authors: Evan Schwab (Megason Lab, Harvard Medical School)
+Kishore Mosaliganti (Megason Lab, Harvard Medical School)
 
 
 
@@ -22,6 +23,9 @@ Creates folder	with same name as input file and same path with the .meg
 metadata and the corresponding .png image files.
 
 ./ImageConversion.sh ../Data/SNAP-154443-0011.zvi
+
+ThreadedImageConversion.sh has one input parameter: the path-to-file to be converted
+to megacapture format. It is multithreaded and consequently runs faster.
 
 
 How to add a new file format
